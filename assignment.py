@@ -13,5 +13,7 @@ trainSents = corpus.tagged_sents()[:3000]
 testSents = corpus.tagged_sents()[3000:]
 unigramTagger = UnigramTagger(trainSents)
 print("Test accuracy = "+str(unigramTagger.evaluate(testSents)))
-uTagger = pickle.dumps(unigramTagger)
-model2 = pickle.loads(uTagger)
+fileName = 'tagfile'
+fileObj = open(fileName,'wb')
+pickle.dump(unigramTagger,fileObj)
+fileObj.close()
