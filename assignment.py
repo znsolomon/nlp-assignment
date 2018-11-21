@@ -1,5 +1,6 @@
 import nltk
 import pickle
+import re
 from os import listdir
 from os.path import isfile, join
 from nltk.tag import UnigramTagger
@@ -13,11 +14,21 @@ test.close()
 #Load the trained POS tagger
 pos = pickle.load(open("tagfile","rb"))
 
-#Process the email using the tagger
+#POS tag the email using the tagger
 tagEmail =[]
 for sent in sent_tokenize(email):
     tagEmail.append(pos.tag(word_tokenize(sent)))
-    
+
+#Extract proper nouns using regex
+propNouns = re.findall( r'(?!.)\s[A-Z]',email)
+
+#Extraction method not using regex: crude
+for sent in tagEmail:
+    for i in range(1,len(sent)):
+        word = sent[i]
+        if word[0][0].isupper():
+            print(word)
+
 #Write the email to a new file
 output = open("testOutput.txt","w")
 for sent in tagEmail:
