@@ -12,26 +12,36 @@ email = test.read()
 test.close()
 
 #Separate the header from the main body using regex
-sep = re.findall(r'Abstract:',email)
+sep = re.search(r'Abstract:',email)
 if sep:
-    print("Yes")
+    header = email[:225]    #Separate the header from the body
+    body = email[235:]
+
+#Extract useful information from the header
+lecType = re.search('(Type:\s*)\w*.*',header)           #Finds the lecture type
+lecTopic = re.search('(Topic:\s*)\w*.*',header)         #Finds the lecture topic
+lecDates = re.search('(Dates\s*)\w*.*',header)          #Finds the lecture dates
+lecTime = re.search('(Time:\s*)\w*.*',header)           #Finds the lecture times
+lecPostedBy = re.search('(PostedBy:\s*)\w*.*',header)   #Finds who posted the message
+#Each of these is found by finding the appropriate title,
+#and finding the string of words afterwards until a newline is reached
+headerInfo = {'Type':lecType,'Topic':lecTopic,'Dates':lecDates,'Time':lecTime,'PostedBy':lecPostedBy}
+print(headerInfo)
 
 #Load the trained POS tagger
 pos = pickle.load(open("tagfile","rb"))
 
 #POS tag the email using the tagger
 tagEmail =[]
-for sent in sent_tokenize(email):
+for sent in sent_tokenize(body):
     tagEmail.append(pos.tag(word_tokenize(sent)))
 
-#Extract proper nouns from the email
+#Extract proper nouns from the email using regex
 propNouns = []
-for sent in tagEmail:
-    for i in range(1,len(sent)):
-        word = sent[i]
-        if word[0][0].isupper() or word[0].isdigit():
-            #print(word)
-            propNouns.append(word)
+#Find all capitalised words that are not directly after a full stop.
+propNouns = re.findall('(?<=[^.]\s)[A-Z]\w+',body)
+if propNouns:
+    print(propNouns)
 
 #Write the email to a new file
 output = open("302Out.txt","w")
@@ -46,4 +56,4 @@ for sent in tagEmail:
 output.close()
 
 
-#STARTING REGEX FOR PROPNOUN EXTRACTION: ([^.].[A-Z])
+#STARTING REGEX FOR PROPNOUN EXTRACTION: (?<=[^.]\s)[A-Z]\w+
