@@ -6,6 +6,7 @@ from os import listdir
 from os.path import isfile, join
 from nltk.tag import UnigramTagger
 from nltk import tokenize, word_tokenize, sent_tokenize
+import name_tagger
 
 def insertString(string,index,insert):
     return string[:index]+insert+string[index:]
@@ -69,7 +70,6 @@ for file in os.listdir("/home/students/zns733/work/NLP/nlp-assignment-master/sem
         if len(tCheck) > 0:
             for item in tCheck:
                 times.append(item)
-    print(times)
     if (times == []):
         foundTime = False
     else:
@@ -117,29 +117,29 @@ for file in os.listdir("/home/students/zns733/work/NLP/nlp-assignment-master/sem
     pos = pickle.load(open("tagfile","rb"))
 
     #POS tag the body using the tagger
+    namesTagger = name_tagger.NamesTagger()
     tagEmail =[]
     for sent in sent_tokenize(body):
         tagEmail.append(pos.tag(word_tokenize(sent)))
+    '''for word in tagEmail:
+        if word[1] == None:
+            word[1] = name_tagger.choose_tag(word[0])'''
+    testEmail = word_tokenize(body)
+    for word in testEmail:
+        if namesTagger.choose_tag(word,None) == 'NNP':
+            print(word)
+            print(namesTagger.choose_tag(word,None))
 
     #Extract proper nouns from the email using regex
     #Find all capitalised words that are not directly after a full stop.
     propNouns = re.findall('(?<=[^.]\s)[0-Z]\w+',body)
-
-    #Find all proper nouns that were mentioned in the header
-    mentNouns = []
-    for key in headerInfo:
-        line = headerInfo[key]
-        for noun in propNouns:
-            noun = str(noun)
-            if re.search(noun,line.group(0)):
-                mentNouns.append(noun)
 
     #Write the email to a new file
     output = open("/home/students/zns733/work/NLP/nlp-assignment-master/seminar_testdata/test_untagged_output/"+insertString(file,3,"out"),"w")
     output.write(email)
     output.close()
 
-    #break                      #If only one file needs to be tested
+    break                      #If only one file needs to be tested
 '''    output = open("302Out.txt","w")
     for sent in tagEmail:
         for word in sent:
