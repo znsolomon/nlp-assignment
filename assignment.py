@@ -11,7 +11,14 @@ import name_tagger
 def insertString(string,index,insert):
     return string[:index]+insert+string[index:]
 
+def findSublist(data,item):     #Given a list of lists and an item, returns the list that contains the item
+    for sublist in data:
+        if item in sublist:
+            return sublist
+    return None
+
 for file in os.listdir("/home/students/zns733/work/NLP/nlp-assignment-master/seminar_testdata/test_untagged"):
+    #file = "402.txt"       #For selecting specific files
     print (file)
     #Load the email
     test = open("/home/students/zns733/work/NLP/nlp-assignment-master/seminar_testdata/test_untagged/"+file, "r")
@@ -31,6 +38,7 @@ for file in os.listdir("/home/students/zns733/work/NLP/nlp-assignment-master/sem
     lecTime = re.search('(Time:\s*)(\w*.)*',header)           #Finds the lecture times
     lecPostedBy = re.search('(PostedBy:\s*)(\w*.)*',header)   #Finds who posted the message
     lecPlace = re.search('(Place:\s*)(\w*.)*',header)           #Finds the lecture location
+    lecWho = re.search('(Who:\s*)(\w*.)*',header)               #Finds the speaker
     #Each of these is found by finding the appropriate title,
     #and finding the string of words afterwards until a newline is reached
     
@@ -79,6 +87,73 @@ for file in os.listdir("/home/students/zns733/work/NLP/nlp-assignment-master/sem
         else:
             eFoundTime = False
 
+    #Load the trained POS tagger
+    pos = pickle.load(open("tagfile","rb"))
+
+    #POS tag the body using the tagger
+    namesTagger = name_tagger.NamesTagger()
+    uTagEmail = []  #Tokenized email ready to be tagged
+    tagEmail =[]    #The complete tagged email
+    for sent in sent_tokenize(body):
+        uTagEmail.append(word_tokenize(sent))
+    for sent in uTagEmail:
+        tagSent = pos.tag(sent)
+        tagSentFinal = []
+        for word in tagSent:
+            if namesTagger.choose_tag(word[0],None) == 'NNP':
+                tagSentFinal.append((word[0],'NNP'))
+            else:
+                tagSentFinal.append(word)
+        tagEmail.append(tagSentFinal)
+
+    #Extract proper nouns from the email using regex
+    #Find all capitalised words that are not directly after a full stop.
+    propNouns = re.findall('(?<=[^.]\s)[0-Z]\w+',body)
+
+    #Attempt to extract speaker name using the header. If not, use the tags
+    foundName = False
+    if lecWho:
+        names = []
+        for word in word_tokenize(lecWho.group(0)):
+            if namesTagger.choose_tag(word,None) == 'NNP':
+                names.append(word)
+        if names != []:
+            foundName = True
+            speaker = ""
+            for word in names:
+                speaker = speaker+word+" "
+            speaker = speaker[:len(speaker)-1]      #Remove the last whitespace
+    #Multiple if statements used to find the correct way to extract the speaker name
+    if not foundName:  #If nothing can be found from the header, extract name from body
+        bodyCheck = re.search('(?<=(Visitor)|(Speaker)):\s*(\w*.)*',body,re.IGNORECASE)
+        if bodyCheck:
+            speakerList = word_tokenize(bodyCheck.group(0))
+            speaker = ""
+            for word in speakerList:
+                speaker = speaker+word+" "
+            speaker = speaker[2:len(speaker)-1]      #Remove the last whitespace and colon at start
+            foundName = True
+    if not foundName:
+        potNames = []
+        for sent in tagEmail:
+            for word in sent:
+                if word[1] == 'NNP' and word[0] in propNouns:
+                    potNames.append(word)
+        print(potNames)
+        if len(potNames) == 1:  #Only one name remaining
+            name = potNames[0]
+            speaker = name[0] + " "
+            sent = findSublist(tagEmail,name)
+            wordCount = 1
+            while True:
+                if sent[sent.index(name)+wordCount][1] == None: #Words after have no tags, are also names
+                    speaker = speaker + sent[sent.index(name)+wordCount][0] + " "
+                    wordCount += 1
+                else:
+                    speaker = speaker[:len(speaker)-1]  #Remove the last whitespace
+                    foundName = True
+                    break 
+    print(speaker)
     #Tag the email with the information extracted
     if foundDate:
         dates = re.finditer(date.group(0),email)
@@ -112,27 +187,6 @@ for file in os.listdir("/home/students/zns733/work/NLP/nlp-assignment-master/sem
             charTrack += 7
             email = insertString(email,item.end()+charTrack,"</eTime>")
             charTrack += 8
-
-    #Load the trained POS tagger
-    pos = pickle.load(open("tagfile","rb"))
-
-    #POS tag the body using the tagger
-    namesTagger = name_tagger.NamesTagger()
-    tagEmail =[]
-    for sent in sent_tokenize(body):
-        tagEmail.append(pos.tag(word_tokenize(sent)))
-    '''for word in tagEmail:
-        if word[1] == None:
-            word[1] = name_tagger.choose_tag(word[0])'''
-    testEmail = word_tokenize(body)
-    for word in testEmail:
-        if namesTagger.choose_tag(word,None) == 'NNP':
-            print(word)
-            print(namesTagger.choose_tag(word,None))
-
-    #Extract proper nouns from the email using regex
-    #Find all capitalised words that are not directly after a full stop.
-    propNouns = re.findall('(?<=[^.]\s)[0-Z]\w+',body)
 
     #Write the email to a new file
     output = open("/home/students/zns733/work/NLP/nlp-assignment-master/seminar_testdata/test_untagged_output/"+insertString(file,3,"out"),"w")
