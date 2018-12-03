@@ -6,6 +6,8 @@ from os import listdir
 from os.path import isfile, join
 from nltk.tag import UnigramTagger
 from nltk import tokenize, word_tokenize, sent_tokenize
+from nltk.corpus import semcor
+from nltk.corpus import wordnet as wn
 import name_tagger
 
 def insertString(string,index,insert):
@@ -17,16 +19,31 @@ def findSublist(data,item):     #Given a list of lists and an item, returns the 
             return sublist
     return None
 
-for file in os.listdir("/home/students/zns733/work/NLP/nlp-assignment-master/seminar_testdata/test_untagged"):
-    #file = "402.txt"       #For selecting specific files
-    print (file)
+def readCorpus(file,item):
+    data = open(file,"r")
+    text = data.read()
+    corpus = word_tokenize(text.lower())
+    definition = word_tokenize(item.lower())
+    for word in corpus:
+        for dWord in definition:
+            if dWord == word:
+                return True
+    return False
+
+nameRecall = 0
+locRecall = 0
+timeRecall = 0
+
+directory = os.getcwd()
+for file in os.listdir(directory + "/seminar_testdata/test_untagged"):
+    #file = "301.txt"       #For selecting specific files
     #Load the email
-    test = open("/home/students/zns733/work/NLP/nlp-assignment-master/seminar_testdata/test_untagged/"+file, "r")
-    email = test.read()
-    test.close()
+    data = open(directory+"/seminar_testdata/test_untagged/"+file, "r")
+    email = data.read()
+    data.close()
 
     #Separate the header from the main body using regex
-    sep = re.search(r'Abstract:',email)
+    sep = re.search('Abstract:',email)
     if sep:
         header = email[:sep.start()]    #Separate the header from the body
         body = email[sep.end():]
@@ -39,6 +56,7 @@ for file in os.listdir("/home/students/zns733/work/NLP/nlp-assignment-master/sem
     lecPostedBy = re.search('(PostedBy:\s*)(\w*.)*',header)   #Finds who posted the message
     lecPlace = re.search('(Place:\s*)(\w*.)*',header)           #Finds the lecture location
     lecWho = re.search('(Who:\s*)(\w*.)*',header)               #Finds the speaker
+    lecHost = re.search('(Host:\s*)(\w*.)*',header)             #Finds the host
     #Each of these is found by finding the appropriate title,
     #and finding the string of words afterwards until a newline is reached
     
@@ -86,15 +104,16 @@ for file in os.listdir("/home/students/zns733/work/NLP/nlp-assignment-master/sem
             eTime = times[1]
         else:
             eFoundTime = False
-
+            
     #Load the trained POS tagger
     pos = pickle.load(open("tagfile","rb"))
 
     #POS tag the body using the tagger
+    bodySents = sent_tokenize(body)
     namesTagger = name_tagger.NamesTagger()
     uTagEmail = []  #Tokenized email ready to be tagged
     tagEmail =[]    #The complete tagged email
-    for sent in sent_tokenize(body):
+    for sent in bodySents:
         uTagEmail.append(word_tokenize(sent))
     for sent in uTagEmail:
         tagSent = pos.tag(sent)
@@ -105,13 +124,27 @@ for file in os.listdir("/home/students/zns733/work/NLP/nlp-assignment-master/sem
             else:
                 tagSentFinal.append(word)
         tagEmail.append(tagSentFinal)
+    #First, reduce tagEmail into a single-dimensional array
+    tagEmail1d = []
+    for sent in tagEmail:
+        for word in sent:
+            tagEmail1d.append(word)
 
     #Extract proper nouns from the email using regex
     #Find all capitalised words that are not directly after a full stop.
     propNouns = re.findall('(?<=[^.]\s)[0-Z]\w+',body)
 
+    #Attempt to extract host name using the header
+    foundHost = False
+    if lecHost:
+        hNames = []
+        for word in word_tokenize(lecHost.group(0)):
+            if namesTagger.choose_tag(word,None) == 'NNP':
+                hNames.append(word)
+        
     #Attempt to extract speaker name using the header. If not, use the tags
     foundName = False
+    nameHeader = False
     if lecWho:
         names = []
         for word in word_tokenize(lecWho.group(0)):
@@ -119,42 +152,189 @@ for file in os.listdir("/home/students/zns733/work/NLP/nlp-assignment-master/sem
                 names.append(word)
         if names != []:
             foundName = True
+            nameHeader = True
             speaker = ""
+            namesTagged = []
+            sent = pos.tag(word_tokenize(lecWho.group(0)))
+            for item in sent:
+                word = item[0]
+                if word in names:
+                    namesTagged.append(item)
+            lastWord = namesTagged[-1]
+            wordCount = 1
+            while True:
+                try:
+                    nextTag = sent[sent.index(lastWord)+wordCount][1]
+                    if nextTag == 'NNP' or nextTag == None:
+                        names.append(sent[sent.index(lastWord)+wordCount][0])
+                        wordCount += 1
+                    else:
+                        break
+                except IndexError:  #If the end of the line is reached
+                    break
             for word in names:
                 speaker = speaker+word+" "
             speaker = speaker[:len(speaker)-1]      #Remove the last whitespace
+      
     #Multiple if statements used to find the correct way to extract the speaker name
     if not foundName:  #If nothing can be found from the header, extract name from body
-        bodyCheck = re.search('(?<=(Visitor)|(Speaker)):\s*(\w*.)*',body,re.IGNORECASE)
+        bodyCheck = re.search('(?<=(Visitor)|(Speaker)):\s*(\w*\s)*',body,re.IGNORECASE)
         if bodyCheck:
             speakerList = word_tokenize(bodyCheck.group(0))
             speaker = ""
             for word in speakerList:
                 speaker = speaker+word+" "
-            speaker = speaker[2:len(speaker)-1]      #Remove the last whitespace and colon at start
+            speaker = speaker[2:len(speaker)]      #Remove the last whitespace and colon at start
             foundName = True
-    if not foundName:
+            for item in tagEmail1d:
+                if item[0] == speakerList[-1]:
+                    lastName = item
+                    break
+            
+    if not foundName:       #If no obvious clues are in the text, look at tagging and word senses
         potNames = []
-        for sent in tagEmail:
-            for word in sent:
-                if word[1] == 'NNP' and word[0] in propNouns:
+        for word in tagEmail1d:
+            if word[1] == 'NNP' and word[0] in propNouns:
+                potNames.append(word)
+        if len(potNames) == 0:   #potNames is empty, so take non-name words
+            for word in tagEmail1d:
+                if word[1] == None and word[0] in propNouns:
                     potNames.append(word)
-        print(potNames)
+        nPotNames = []  #Now all the incorrect items in potNames must be removed
+        #Remove duplicates
+        seen = set()
+        for item in potNames:
+            if item not in seen:
+                nPotNames.append(item)
+                seen.add(item)
+        potNames = nPotNames
+        nPotNames = []  #Remove non-name words
+        for item in potNames:
+            senses = wn.synsets(item[0])
+            if len(senses) == 0:        #Words with no definitions are names
+                nPotNames.append(item)
+            else:
+                for sense in senses:#Check the definition of the word for key identifiers of names:
+                    if readCorpus(directory+"/gazetteers/nationalities.txt",sense.definition()):
+                        nPotNames.append(item)  #Nationalities
+                        break
+                    elif readCorpus(directory+"/professions.txt",sense.definition()):
+                        nPotNames.append(item)  #Profession titles
+                        break
+        potNames = nPotNames
+        #Now the correct names need to be identified
+        nPotNames = []
+        #Eliminate any acronyms (all capitals) or numbers (all numbers)
+        for name in potNames:
+            if not (re.search('\d*',name[0]).group(0) == name[0]) and not (re.search('[A-Z]*',name[0]).group(0) == name[0]):
+                if lecHost:     #The host and speaker are different people
+                    isHost = False
+                    for hName in hNames:
+                        if name[0] == hName:
+                            isHost = True
+                    if not isHost:
+                        nPotNames.append(name)
+                else:
+                    nPotNames.append(name)
+                    
+        potNames = nPotNames
+        #potNames has been reduced: now to construct speaker
+        speaker = ""
+        lastName = ""
         if len(potNames) == 1:  #Only one name remaining
             name = potNames[0]
             speaker = name[0] + " "
-            sent = findSublist(tagEmail,name)
-            wordCount = 1
-            while True:
-                if sent[sent.index(name)+wordCount][1] == None: #Words after have no tags, are also names
-                    speaker = speaker + sent[sent.index(name)+wordCount][0] + " "
+            lastName = name
+            foundName = True
+        elif len(potNames) > 1:
+            oneName = True      #If more than one name remains, make sure they are next to each other (the same name)
+            for i in range(len(potNames)-1):
+                word = potNames[i]
+                nextWord = potNames[i+1]
+                if tagEmail1d.index(word) != tagEmail1d.index(nextWord)-1:
+                    oneName = False
+                    break
+            if oneName:
+                for item in potNames:
+                    name = item[0]
+                    speaker = speaker + name + " "
+                lastName = potNames[-1]
+                foundName = True
+    #Now pick up any names that were not in the 'names' corpus
+    if foundName and not nameHeader:
+        sent = findSublist(tagEmail,lastName)
+        wordCount = 1
+        while True:
+            try:
+                nextTag = sent[sent.index(lastName)+wordCount][1]
+                if nextTag == None or nextTag == 'NNP':
+                    #Words after that have no tags are also names
+                    speaker = speaker + sent[sent.index(lastName)+wordCount][0] + " "
                     wordCount += 1
                 else:
                     speaker = speaker[:len(speaker)-1]  #Remove the last whitespace
-                    foundName = True
-                    break 
-    print(speaker)
+                    break
+            except IndexError:  #If name is at the end of a sentence
+                speaker = speaker[:len(speaker)-1]  #Remove the last whitespace
+                break      
+
+    #Find location using header
+    foundLocation = False
+    locRegs = ["([\dA-Z]+ *wean hall)","(wean hall *[\dA-Z]+)","(baker hall)","(\d* *doherty hall *\d*)","mellon institute building","([\dA-Z]+ *weh)","(weh *[\dA-Z]+)","([\dA-Z]+ *wean)","(wean *[\dA-Z]+)","\d\w\w floor conference room","sei auditorium","porter hall [\dA-Z]*","pittsburgh supercomputing center","\d* cathedral of learning","(\d* *doherty *\d*)"]
+#Above is the regex for all locations found in the 'place' tab of all emails used for testing.
+    if lecPlace:
+        for reg in locRegs:
+            location = re.search(reg,lecPlace.group(0),re.IGNORECASE)
+            if location:
+                foundLocation = True
+                break
+    else:   #Search the body for locations shown above
+        for reg in locRegs:
+            location = re.search(reg,body,re.IGNORECASE)
+            if location:
+                foundLocation = True
+                break
     #Tag the email with the information extracted
+    #Find and tag sentences
+    sentMarkers = re.finditer('[\n.!?]\W(?=[A-Z])',body)
+    sentMarkList = re.findall('[\n.!?]\W(?=[A-Z])',body)
+    charTrack = 0
+    headLen = len(header)+9
+    markCount = 0
+    for mark in sentMarkers:
+        if markCount == 0:
+            email = insertString(email,mark.end()+headLen+charTrack,"<sentence>")
+            charTrack += 10
+        else:
+            email = insertString(email,mark.start()+headLen+charTrack,"<\sentence>")
+            charTrack += 11
+            email = insertString(email,mark.end()+headLen+charTrack,"<sentence>")
+            charTrack += 10
+        if markCount == len(sentMarkList)-1:
+            email = insertString(email,len(email)-1,"<\sentence>")
+            charTrack += 11
+        markCount += 1
+    #Find and tag paragraphs
+    parMarkers = re.finditer('\n\n',email)
+    parMarkersList = re.findall('\n\n',email)
+    charTrack = 0
+    headLen = len(header)+9
+    markCount = 0
+    for mark in parMarkers:
+        if mark.start() > headLen:  #Only marks sentences in the body
+            if markCount == 0:
+                email = insertString(email,mark.end()+charTrack,"<paragraph>")
+                charTrack += 11
+            else:
+                email = insertString(email,mark.start()+charTrack,"<\paragraph>")
+                charTrack += 12
+                email = insertString(email,mark.end()+charTrack,"<paragraph>")
+                charTrack += 11
+            if markCount == len(parMarkersList)-1:
+                email = insertString(email,len(email),"<\paragraph>")
+                charTrack += 12
+            markCount += 1
+    #Tag information
     if foundDate:
         dates = re.finditer(date.group(0),email)
         charTrack = 0
@@ -179,6 +359,7 @@ for file in os.listdir("/home/students/zns733/work/NLP/nlp-assignment-master/sem
             charTrack += 7
             email = insertString(email,item.end()+charTrack,"</sTime>")
             charTrack += 8
+        timeRecall += 1
     if eFoundTime:
         eTimes = re.finditer(eTime,email,re.IGNORECASE)
         charTrack = 0
@@ -187,22 +368,30 @@ for file in os.listdir("/home/students/zns733/work/NLP/nlp-assignment-master/sem
             charTrack += 7
             email = insertString(email,item.end()+charTrack,"</eTime>")
             charTrack += 8
+    if foundName:
+        names = re.finditer(speaker,email,re.IGNORECASE)
+        charTrack = 0
+        for item in names:
+            email = insertString(email,item.start()+charTrack,"<speaker>")
+            charTrack += 9
+            email = insertString(email,item.end()+charTrack,"</speaker>")
+            charTrack += 10
+        nameRecall += 1
+    if foundLocation:
+        locations = re.finditer(location.group(0),email,re.IGNORECASE)
+        charTrack = 0
+        for item in locations:
+            email = insertString(email,item.start()+charTrack,"<location>")
+            charTrack += 10
+            email = insertString(email,item.end()+charTrack,"</location>")
+            charTrack += 11
+        locRecall += 1
 
     #Write the email to a new file
-    output = open("/home/students/zns733/work/NLP/nlp-assignment-master/seminar_testdata/test_untagged_output/"+insertString(file,3,"out"),"w")
+    output = open(directory+"/seminar_testdata/test_untagged_output/"+insertString(file,3,"out"),"w")
     output.write(email)
     output.close()
 
-    break                      #If only one file needs to be tested
-'''    output = open("302Out.txt","w")
-    for sent in tagEmail:
-        for word in sent:
-            if word[1] == None:
-                tag = 'None'
-            else:
-                tag = word[1]
-            output.write("<"+tag+">"+word[0]+"</"+tag+"> ")
-        output.write("\n")
-    output.close()'''
-
-#STARTING REGEX FOR PROPNOUN EXTRACTION: (?<=[^.]\s)[0-Z]\w+
+    #break                      #If only one file needs to be tested
+stats = [timeRecall,timeRecall/185,nameRecall,nameRecall/185,locRecall,locRecall/185]
+print(stats)
