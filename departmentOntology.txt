@@ -1,0 +1,57 @@
+Field
+	College
+		School
+			Department
+
+Art
+	Arts/law
+		Law School
+		English
+			English
+			Drama
+			American/Canadian studies
+		History
+		Language
+			Language
+			Art history
+			Music
+		Philosophy
+			Philosophy
+			Theology
+			Religion
+Science
+	Engineering/physical
+		Chemical engineering
+		Chemistry
+		Computer Science
+		Engineering
+		Mathematics
+		Metallurgy/metals
+		Physics
+			Physics
+			Astronomy
+	Life/enviromental
+		Biosciences
+		Geography
+		Psychology
+		Sport
+	Medical/dental
+		Health Research
+		Biomed
+		Cancer/genomic
+		Cardiovascular
+		Clinical
+		Dentistry
+		Graduate
+		Immunology/Immunotherpy
+		Inflammation/Ageing
+		Medicine
+		Metabolism
+		Microbiology
+		Nursing
+		Pharmacy
+	Social
+		Business
+		Education
+		Government
+		Social policy

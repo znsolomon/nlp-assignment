@@ -333,7 +333,7 @@ for file in os.listdir(directory + "/seminar_testdata/test_untagged"):
             if markCount == len(parMarkersList)-1:
                 email = insertString(email,len(email),"<\paragraph>")
                 charTrack += 12
-            markCount += 1
+        markCount += 1
     #Tag information
     if foundDate:
         dates = re.finditer(date.group(0),email)
