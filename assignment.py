@@ -9,6 +9,7 @@ from nltk import tokenize, word_tokenize, sent_tokenize
 from nltk.corpus import semcor
 from nltk.corpus import wordnet as wn
 import name_tagger
+import ontologyConstruction
 
 def insertString(string,index,insert):
     return string[:index]+insert+string[index:]
@@ -30,13 +31,32 @@ def readCorpus(file,item):
                 return True
     return False
 
+#Construct ontology to use later
+#ontology = ontologyConstruction.ontology("Science")
+
+#Function that searches for the subject
+'''def findSub(ontology,text):
+    inText = re.search(ontology.subject,text,re.IGNORECASE)
+    if not inText:  #Sets subject to the current subject if it's in the text
+        subject = None
+    else:
+        subject = ontology.subject
+    if ontology.devs == None:  #Returns the subject if no derivatives exist
+        return subject
+    else:
+        for dev in ontology.devs:   #Recurrs if the derivative is in the text
+            if not findSub(dev,text) == None:
+                subject = ontology.subject+"/"+findSub(dev,text)
+                #Will always choose the subject farthest down the ontology
+    return subject'''
+
 nameRecall = 0
 locRecall = 0
 timeRecall = 0
 
 directory = os.getcwd()
 for file in os.listdir(directory + "/seminar_testdata/test_untagged"):
-    #file = "301.txt"       #For selecting specific files
+    file = "301.txt"       #For selecting specific files
     #Load the email
     data = open(directory+"/seminar_testdata/test_untagged/"+file, "r")
     email = data.read()
@@ -79,25 +99,20 @@ for file in os.listdir(directory + "/seminar_testdata/test_untagged"):
         foundPostDate = False
         
     #Extract time, including allowing for multiple times
-    timeRegs = ['\d*:\d*\sam','\d*:\d*\spm','\d*:\d\d*']
+    #timeRegs = ['\d*:\d*\sam','\d*:\d*\spm','\d*:\d\d*']
+    timeRegs = "(\d{1,2}[^0-9]\d{1,2} *p*[.]*m*[.]*)|(\d+ *p[.]*m[.]*)"
     times = []
     foundTime = True
     eFoundTime = True
-    for reg in timeRegs:
-        tCheck = re.findall(reg,lecTime.group(0),re.IGNORECASE)
-        for match in times:
-            tPrev = re.search(reg,match,re.IGNORECASE)
-            if tPrev:
-                for time in tCheck:
-                    if tPrev.group(0) == time:
-                        #Ignores multiple matches of the same time
-                        tCheck.remove(time)
-                        break
-        if len(tCheck) > 0:
-            for item in tCheck:
-                times.append(item)
+    tCheck = re.findall(timeRegs,lecTime.group(0),re.IGNORECASE)
+    print(tCheck)
+    for item in tCheck:
+        times.append(item)
+
+    print(times)
     if (times == []):
         foundTime = False
+        eFoundTime = False
     else:
         sTime = times[0]
         if len(times) > 1:
@@ -131,8 +146,9 @@ for file in os.listdir(directory + "/seminar_testdata/test_untagged"):
             tagEmail1d.append(word)
 
     #Extract proper nouns from the email using regex
-    #Find all capitalised words that are not directly after a full stop.
-    propNouns = re.findall('(?<=[^.]\s)[0-Z]\w+',body)
+    #Find all capitalised words that are not directly after a full stop. (Firstly extract the 'Doctor' proper nouns
+    propNouns = re.findall('(?<=[Dr.]\s)[0-Z]\w+',body)
+    propNouns = propNouns + re.findall('(?<=[^.]\s)[0-Z]\w+',body)
 
     #Attempt to extract host name using the header
     foundHost = False
@@ -306,12 +322,12 @@ for file in os.listdir(directory + "/seminar_testdata/test_untagged"):
             email = insertString(email,mark.end()+headLen+charTrack,"<sentence>")
             charTrack += 10
         else:
-            email = insertString(email,mark.start()+headLen+charTrack,"<\sentence>")
+            email = insertString(email,mark.start()+headLen+charTrack,"</sentence>")
             charTrack += 11
             email = insertString(email,mark.end()+headLen+charTrack,"<sentence>")
             charTrack += 10
         if markCount == len(sentMarkList)-1:
-            email = insertString(email,len(email)-1,"<\sentence>")
+            email = insertString(email,len(email)-1,"</sentence>")
             charTrack += 11
         markCount += 1
     #Find and tag paragraphs
@@ -326,12 +342,12 @@ for file in os.listdir(directory + "/seminar_testdata/test_untagged"):
                 email = insertString(email,mark.end()+charTrack,"<paragraph>")
                 charTrack += 11
             else:
-                email = insertString(email,mark.start()+charTrack,"<\paragraph>")
+                email = insertString(email,mark.start()+charTrack,"</paragraph>")
                 charTrack += 12
                 email = insertString(email,mark.end()+charTrack,"<paragraph>")
                 charTrack += 11
             if markCount == len(parMarkersList)-1:
-                email = insertString(email,len(email),"<\paragraph>")
+                email = insertString(email,len(email),"</paragraph>")
                 charTrack += 12
         markCount += 1
     #Tag information
@@ -355,18 +371,18 @@ for file in os.listdir(directory + "/seminar_testdata/test_untagged"):
         sTimes = re.finditer(sTime,email,re.IGNORECASE)
         charTrack = 0
         for item in sTimes:
-            email = insertString(email,item.start()+charTrack,"<sTime>")
+            email = insertString(email,item.start()+charTrack,"<stime>")
             charTrack += 7
-            email = insertString(email,item.end()+charTrack,"</sTime>")
+            email = insertString(email,item.end()+charTrack,"</stime>")
             charTrack += 8
         timeRecall += 1
     if eFoundTime:
         eTimes = re.finditer(eTime,email,re.IGNORECASE)
         charTrack = 0
         for item in eTimes:
-            email = insertString(email,item.start()+charTrack,"<eTime>")
+            email = insertString(email,item.start()+charTrack,"<etime>")
             charTrack += 7
-            email = insertString(email,item.end()+charTrack,"</eTime>")
+            email = insertString(email,item.end()+charTrack,"</etime>")
             charTrack += 8
     if foundName:
         names = re.finditer(speaker,email,re.IGNORECASE)
@@ -387,11 +403,15 @@ for file in os.listdir(directory + "/seminar_testdata/test_untagged"):
             charTrack += 11
         locRecall += 1
 
+    #Find the correct subject in the ontology
+    #subject = findSub(ontology,email)
+    #Adds the subject to the front of the email
+    email = "SUBJECT: "+str(subject)+"\n---------------------------------\n"+email
     #Write the email to a new file
     output = open(directory+"/seminar_testdata/test_untagged_output/"+insertString(file,3,"out"),"w")
     output.write(email)
     output.close()
 
-    #break                      #If only one file needs to be tested
+    break                      #If only one file needs to be tested
 stats = [timeRecall,timeRecall/185,nameRecall,nameRecall/185,locRecall,locRecall/185]
-print(stats)
+#print(stats)
