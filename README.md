@@ -5,7 +5,7 @@ Program attempts to extract information from lecture reminder notifications.
 
 File walkthrough:
 
--academicOntology: Pickled class structure created by ontologyConstruction.py for the tagging of subjects
+-academicOntology: Pickled class structure created by ontologyConstruction.py for the tagging of subjects\n
 -assignment.py: Contains the main code for tagging the emails
 -assignmentEvaluation.pdf: Written report about the assignment
 -departmentOntology.txt: HTML file from which academicOntology was constructed
