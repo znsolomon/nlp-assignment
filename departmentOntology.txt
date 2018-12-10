@@ -36,11 +36,10 @@
 <li><a href="/wiki/Political_anthropology" title="Political anthropology">Political anthropology</a></li>
 <li><a href="/wiki/Psychological_anthropology" title="Psychological anthropology">Psychological anthropology</a></li></ul></li>
 <li><a href="/wiki/Linguistic_anthropology" title="Linguistic anthropology">Linguistic anthropology</a></li>
-<li><a href="/wiki/Social_anthropology" title="Social anthropology">Social anthropology</a></li></ul>
-<p> 
+<li><a href="/wiki/Social_anthropology" title="Social anthropology">Social anthropology</a></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
-<h4><span class="mw-headline" id="Archaeology">Archaeology</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=4" title="Edit section: Archaeology">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<h3><span class="mw-headline" id="Archaeology">Archaeology</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=4" title="Edit section: Archaeology">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
 <div role="note" class="hatnote navigation-not-searchable">Main articles: <a href="/wiki/Archaeology" title="Archaeology">Archaeology</a>, <a href="/wiki/Outline_of_archaeology" title="Outline of archaeology">Outline of archaeology</a>, and <a href="/wiki/Archaeological_sub-disciplines" title="Archaeological sub-disciplines">Archaeological sub-disciplines</a></div>
 <div role="note" class="hatnote navigation-not-searchable">See also: <a href="/wiki/Archaeological_sub-disciplines" title="Archaeological sub-disciplines">Branches of archaeology</a></div>
 <ul><li><a href="/wiki/Classical_archaeology" title="Classical archaeology">Classical archaeology</a></li>
@@ -69,8 +68,7 @@
 <li><a href="/wiki/History_of_Indonesia" title="History of Indonesia">Indonesian history</a></li></ul></li>
 <li><a href="/wiki/History_of_Europe" title="History of Europe">European history</a></li>
 <li><a href="/wiki/Economic_history_of_the_world" title="Economic history of the world">Economic history</a></li>
-<li><a href="/wiki/Environmental_history" title="Environmental history">Environmental history</a></li></ul>
-<p> 
+<li><a href="/wiki/Environmental_history" title="Environmental history">Environmental history</a></li></</pp> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
@@ -84,8 +82,7 @@
 <li><a href="/wiki/History_of_Russia" title="History of Russia">Russian history</a></li>
 <li><a href="/wiki/History_of_Science" class="mw-redirect" title="History of Science">Scientific history</a></li>
 <li><a href="/wiki/History_of_Technology" class="mw-redirect" title="History of Technology">Technological history</a></li>
-<li><a href="/wiki/World_history" title="World history">World history</a></li></ul>
-<p> 
+<li><a href="/wiki/World_history" title="World history">World history</a></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span class="mw-headline" id="Linguistics_and_languages">Linguistics and languages</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=6" title="Edit section: Linguistics and languages">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -127,8 +124,7 @@
 <li><a href="/wiki/Composition_studies" title="Composition studies">Composition studies</a></li>
 <li><a href="/wiki/Rhetoric#Modern_rhetoric" title="Rhetoric">Rhetoric</a></li>
 <li><a href="/wiki/Usage" class="mw-redirect" title="Usage">Usage</a></li>
-<li><a href="/wiki/Word_usage" title="Word usage">Word usage</a></li></ul>
-<p> 
+<li><a href="/wiki/Word_usage" title="Word usage">Word usage</a></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span class="mw-headline" id="Philosophy">Philosophy</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=7" title="Edit section: Philosophy">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -201,8 +197,7 @@
 <li><a href="/wiki/Philosophy_and_economics" title="Philosophy and economics">Philosophy of economics</a></li>
 <li><a href="/wiki/Philosophy_of_psychology" title="Philosophy of psychology">Philosophy of psychology</a></li></ul></li>
 <li><a href="/wiki/Philosophy_of_engineering" title="Philosophy of engineering">Philosophy of engineering</a></li>
-<li><a href="/wiki/Systems_philosophy" title="Systems philosophy">Systems philosophy</a></li></ul></li></ul>
-<p> 
+<li><a href="/wiki/Systems_philosophy" title="Systems philosophy">Systems philosophy</a></li></ul></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span class="mw-headline" id="Religion">Religion</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=8" title="Edit section: Religion">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -232,8 +227,7 @@
 <li><a href="/wiki/Caodaism" title="Caodaism">Caodaism</a></li>
 <li><a href="/wiki/Chondogyo" class="mw-redirect" title="Chondogyo">Chondogyo</a></li>
 <li><a href="/wiki/Tenrikyo" title="Tenrikyo">Tenrikyo</a></li>
-<li><a href="/wiki/Oomoto" title="Oomoto">Oomoto</a></li></ul></li></ul>
-<p> 
+<li><a href="/wiki/Oomoto" title="Oomoto">Oomoto</a></li></ul></li></</pp> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
@@ -254,8 +248,7 @@
 <li><a href="/wiki/Irreligion" title="Irreligion">Irreligion</a>
 <ul><li><a href="/wiki/Agnostic" class="mw-redirect" title="Agnostic">Agnosticism</a></li>
 <li><a href="/wiki/Atheism" title="Atheism">Atheism</a> (<a href="/wiki/Outline_of_atheism" title="Outline of atheism">outline</a>) and <a href="/wiki/Religious_humanism" title="Religious humanism">religious humanism</a></li>
-<li><a href="/wiki/Nontheism" title="Nontheism">Nontheism</a></li></ul></li></ul>
-<p> 
+<li><a href="/wiki/Nontheism" title="Nontheism">Nontheism</a></li></ul></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span class="mw-headline" id="The_arts">The arts</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=9" title="Edit section: The arts">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -345,8 +338,7 @@
 <li><a href="/wiki/Singing" title="Singing">Singing</a></li>
 <li><a href="/wiki/Woodwind_instrument" title="Woodwind instrument">Woodwinds</a>, <a href="/wiki/Brass_instrument" title="Brass instrument">brass</a>, and <a href="/wiki/Percussion_instrument" title="Percussion instrument">percussion</a></li></ul></li>
 <li><a href="/wiki/Sound_recording_and_reproduction" title="Sound recording and reproduction">Recording</a></li>
-<li><a href="/wiki/Orchestra" title="Orchestra">Orchestral studies</a></li></ul></li></ul>
-<p> 
+<li><a href="/wiki/Orchestra" title="Orchestra">Orchestral studies</a></li></ul></li></</pp> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
@@ -383,8 +375,7 @@
 <ul><li><a href="/wiki/Arcade_game" title="Arcade game">Arcade game</a></li>
 <li><a href="/wiki/Audio_game" title="Audio game">Audio game</a></li>
 <li><a href="/wiki/Slot_machine" title="Slot machine">Slot machine</a></li>
-<li><a href="/wiki/Video_game" title="Video game">Outline of video games</a></li></ul></li></ul>
-<p> 
+<li><a href="/wiki/Video_game" title="Video game">Outline of video games</a></li></ul></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h4><span class="mw-headline" id="Visual_arts">Visual arts</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=13" title="Edit section: Visual arts">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
@@ -400,8 +391,7 @@
 <ul><li><a href="/wiki/Drawing" title="Drawing">Drawing</a> (<a href="/wiki/Outline_of_drawing_and_drawings" title="Outline of drawing and drawings">outline</a>)</li>
 <li><a href="/wiki/Painting" title="Painting">Painting</a> (<a href="/wiki/Outline_of_painting" title="Outline of painting">outline</a>)</li>
 <li><a href="/wiki/Photography" title="Photography">Photography</a> (<a href="/wiki/Outline_of_photography" title="Outline of photography">outline</a>)</li></ul></li>
-<li><a href="/wiki/Sculpture" title="Sculpture">Sculpture</a> (<a href="/wiki/Outline_of_sculpture" title="Outline of sculpture">outline</a>)</li></ul>
-<p> 
+<li><a href="/wiki/Sculpture" title="Sculpture">Sculpture</a> (<a href="/wiki/Outline_of_sculpture" title="Outline of sculpture">outline</a>)</li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h2><span class="mw-headline" id="Social_sciences">Social sciences</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=14" title="Edit section: Social sciences">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
@@ -442,12 +432,11 @@
 <li><a href="/wiki/Financial_econometrics" title="Financial econometrics">Financial econometrics</a></li>
 <li><a href="/wiki/Green_economics" class="mw-redirect" title="Green economics">Green economics</a></li>
 <li><a href="/wiki/Economic_growth" title="Economic growth">Growth economics</a></li>
-<li><a href="/wiki/Human_development_theory" class="mw-redirect" title="Human development theory">Human development theory</a></li></ul>
-<p> 
+<li><a href="/wiki/Human_development_theory" class="mw-redirect" title="Human development theory">Human development theory</a></li></</pp> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
-<ul><li><a href="/wiki/Industrial_organization" title="Industrial organization">Industrial organization</a></li>
+<li><a href="/wiki/Industrial_organization" title="Industrial organization">Industrial organization</a></li>
 <li><a href="/wiki/Industry" title="Industry">Industry</a></li>
 <li><a href="/wiki/Information_economics" title="Information economics">Information economics</a></li>
 <li><a href="/wiki/Institutional_economics" title="Institutional economics">Institutional economics</a></li>
@@ -474,8 +463,7 @@
 <li><a href="/wiki/Socialist_economics" title="Socialist economics">Socialist economics</a></li>
 <li><a href="/wiki/Socioeconomics" title="Socioeconomics">Socioeconomics</a></li>
 <li><a href="/wiki/Transport_economics" title="Transport economics">Transport economics</a></li>
-<li><a href="/wiki/Welfare_economics" title="Welfare economics">Welfare economics</a></li></ul>
-<p> 
+<li><a href="/wiki/Welfare_economics" title="Welfare economics">Welfare economics</a></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span class="mw-headline" id="Geography">Geography</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=16" title="Edit section: Geography">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -503,8 +491,7 @@
 <li><a href="/wiki/Children%27s_geographies" title="Children's geographies">Children's geographies</a></li>
 <li><a href="/wiki/Health_geography" title="Health geography">Health geography</a></li>
 <li><a href="/wiki/Tourism_geography" title="Tourism geography">Tourism geography</a></li></ul></li>
-<li><a href="/wiki/Urban_geography" title="Urban geography">Urban geography</a></li></ul></li></ul>
-<p> 
+<li><a href="/wiki/Urban_geography" title="Urban geography">Urban geography</a></li></ul></li></</pp> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
@@ -523,8 +510,7 @@
 <li><a href="/wiki/Landscape_ecology" title="Landscape ecology">Landscape ecology</a></li>
 <li><a href="/wiki/Palaeogeography" title="Palaeogeography">Palaeogeography</a></li></ul></li>
 <li><a href="/wiki/Regional_geography" title="Regional geography">Regional geography</a></li>
-<li><a href="/wiki/Remote_sensing" title="Remote sensing">Remote sensing</a></li></ul>
-<p> 
+<li><a href="/wiki/Remote_sensing" title="Remote sensing">Remote sensing</a></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span class="mw-headline" id="Interdisciplinary_studies">Interdisciplinary studies</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=17" title="Edit section: Interdisciplinary studies">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -576,8 +562,7 @@
 <li><a href="/wiki/Heterosexism" title="Heterosexism">Heterosexism</a></li>
 <li><a href="/wiki/Human_sexual_behavior" class="mw-redirect" title="Human sexual behavior">Human sexual behavior</a></li>
 <li><a href="/wiki/Human_sexuality" title="Human sexuality">Human sexuality</a> (<a href="/wiki/Outline_of_human_sexuality" title="Outline of human sexuality">outline</a>)</li>
-<li><a href="/wiki/Masculine_psychology" title="Masculine psychology">Masculine psychology</a></li></ul>
-<p> 
+<li><a href="/wiki/Masculine_psychology" title="Masculine psychology">Masculine psychology</a></li></</pp> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
@@ -585,8 +570,7 @@
 <li><a href="/wiki/Queer_studies" title="Queer studies">Queer studies</a>/<a href="/wiki/Queer_theory" title="Queer theory">Queer theory</a></li>
 <li><a href="/wiki/Sex_education" title="Sex education">Sex education</a></li>
 <li><a href="/wiki/Sexology" title="Sexology">Sexology</a></li>
-<li><a href="/wiki/Women%27s_studies" title="Women's studies">Women's studies</a></li></ul>
-<p> 
+<li><a href="/wiki/Women%27s_studies" title="Women's studies">Women's studies</a></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h4><span class="mw-headline" id="Organizational_studies">Organizational studies</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=21" title="Edit section: Organizational studies">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
@@ -631,8 +615,7 @@
 <ul><li><a href="/wiki/Nonprofit_organization" title="Nonprofit organization">Nonprofit administration</a></li>
 <li><a href="/wiki/Non-governmental_organization" title="Non-governmental organization">Non-governmental organization (NGO) administration</a></li></ul></li>
 <li><a href="/wiki/Public_policy" title="Public policy">Public policy</a></li>
-<li><a href="/wiki/Social_choice_theory" title="Social choice theory">Social choice theory</a></li></ul>
-<p> 
+<li><a href="/wiki/Social_choice_theory" title="Social choice theory">Social choice theory</a></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span class="mw-headline" id="Psychology">Psychology</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=23" title="Edit section: Psychology">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -672,8 +655,7 @@
 <li><a href="/wiki/Forensic_developmental_psychology" title="Forensic developmental psychology">Forensic developmental psychology</a></li>
 <li><a href="/wiki/Health_psychology" title="Health psychology">Health psychology</a></li>
 <li><a href="/wiki/Humanistic_psychology" title="Humanistic psychology">Humanistic psychology</a></li>
-<li><a href="/wiki/Indigenous_psychology" title="Indigenous psychology">Indigenous psychology</a></li></ul>
-<p> 
+<li><a href="/wiki/Indigenous_psychology" title="Indigenous psychology">Indigenous psychology</a></li></</pp> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
@@ -711,8 +693,7 @@
 <li><a href="/wiki/Sport_psychology" title="Sport psychology">Sport psychology</a></li>
 <li><a href="/wiki/Traffic_psychology" title="Traffic psychology">Traffic psychology</a></li>
 <li><a href="/wiki/Transpersonal_psychology" title="Transpersonal psychology">Transpersonal psychology</a></li>
-<li><a href="/w/index.php?title=Travel_psychology&amp;action=edit&amp;redlink=1" class="new" title="Travel psychology (page does not exist)">Travel psychology</a></li></ul>
-<p> 
+<li><a href="/w/index.php?title=Travel_psychology&amp;action=edit&amp;redlink=1" class="new" title="Travel psychology (page does not exist)">Travel psychology</a></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span class="mw-headline" id="Sociology">Sociology</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=24" title="Edit section: Sociology">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -796,8 +777,7 @@
 <ul><li><a href="/wiki/Computational_sociology" title="Computational sociology">Computational sociology</a></li>
 <li><a href="/wiki/Economic_sociology" title="Economic sociology">Economic sociology</a>/<a href="/wiki/Socioeconomics" title="Socioeconomics">Socioeconomics</a>
 <ul><li><a href="/wiki/Economic_development" title="Economic development">Economic development</a></li>
-<li><a href="/wiki/Social_development" class="mw-redirect" title="Social development">Social development</a></li></ul></li></ul></li></ul>
-<p> 
+<li><a href="/wiki/Social_development" class="mw-redirect" title="Social development">Social development</a></li></ul></li></ul></li></</pp> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
@@ -865,8 +845,7 @@
 <li><a href="/wiki/Theoretical_sociology" class="mw-redirect" title="Theoretical sociology">Theoretical sociology</a></li>
 <li><a href="/wiki/Urban_studies" title="Urban studies">Urban studies</a> or <a href="/wiki/Urban_sociology" title="Urban sociology">Urban sociology</a>/<a href="/wiki/Rural_sociology" title="Rural sociology">Rural sociology</a></li>
 <li><a href="/wiki/Victimology" title="Victimology">Victimology</a></li>
-<li><a href="/wiki/Visual_sociology" title="Visual sociology">Visual sociology</a></li></ul>
-<p> 
+<li><a href="/wiki/Visual_sociology" title="Visual sociology">Visual sociology</a></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h2><span class="mw-headline" id="Natural_sciences">Natural sciences</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=25" title="Edit section: Natural sciences">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
@@ -917,8 +896,7 @@
 <li><a href="/wiki/Mathematical_biology" class="mw-redirect" title="Mathematical biology">Mathematical biology</a></li>
 <li><a href="/wiki/Microbiology" title="Microbiology">Microbiology</a></li>
 <li><a href="/wiki/Molecular_biology" title="Molecular biology">Molecular biology</a></li>
-<li><a href="/wiki/Mycology" title="Mycology">Mycology</a></li></ul>
-<p> 
+<li><a href="/wiki/Mycology" title="Mycology">Mycology</a></li></</pp> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
@@ -970,8 +948,7 @@
 <li><a href="/wiki/Planktology" title="Planktology">Planktology</a></li>
 <li><a href="/wiki/Primatology" title="Primatology">Primatology</a></li>
 <li><a href="/wiki/Zootomy" class="mw-redirect" title="Zootomy">Zootomy</a></li>
-<li><a href="/wiki/Zoosemiotics" title="Zoosemiotics">Zoosemiotics</a></li></ul></li></ul>
-<p> 
+<li><a href="/wiki/Zoosemiotics" title="Zoosemiotics">Zoosemiotics</a></li></ul></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span class="mw-headline" id="Chemistry">Chemistry</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=27" title="Edit section: Chemistry">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -1005,12 +982,11 @@
 <li><a href="/wiki/Inorganic_chemistry" title="Inorganic chemistry">Inorganic chemistry</a></li>
 <li><a href="/wiki/Marine_chemistry" class="mw-redirect" title="Marine chemistry">Marine chemistry</a></li>
 <li><a href="/wiki/Mathematical_chemistry" title="Mathematical chemistry">Mathematical chemistry</a></li>
-<li><a href="/wiki/Mechanochemistry" title="Mechanochemistry">Mechanochemistry</a></li></ul>
-<p> 
+<li><a href="/wiki/Mechanochemistry" title="Mechanochemistry">Mechanochemistry</a></li></</pp> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
-<ul><li><a href="/wiki/Medicinal_chemistry" title="Medicinal chemistry">Medicinal chemistry</a></li>
+<li><a href="/wiki/Medicinal_chemistry" title="Medicinal chemistry">Medicinal chemistry</a></li>
 <li><a href="/wiki/Molecular_biology" title="Molecular biology">Molecular biology</a></li>
 <li><a href="/wiki/Molecular_mechanics" title="Molecular mechanics">Molecular mechanics</a></li>
 <li><a href="/wiki/Nanotechnology" title="Nanotechnology">Nanotechnology</a></li>
@@ -1034,8 +1010,7 @@
 <li><a href="/wiki/Surface_chemistry" class="mw-redirect" title="Surface chemistry">Surface chemistry</a></li>
 <li><a href="/wiki/Synthetic_chemistry" class="mw-redirect" title="Synthetic chemistry">Synthetic chemistry</a></li>
 <li><a href="/wiki/Theoretical_chemistry" title="Theoretical chemistry">Theoretical chemistry</a></li>
-<li><a href="/wiki/Thermochemistry" title="Thermochemistry">Thermochemistry</a></li></ul>
-<p> 
+<li><a href="/wiki/Thermochemistry" title="Thermochemistry">Thermochemistry</a></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span class="mw-headline" id="Earth_sciences">Earth sciences</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=28" title="Edit section: Earth sciences">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -1058,12 +1033,11 @@
 <li><a href="/wiki/Geophysics" title="Geophysics">Geophysics</a> (<a href="/wiki/Outline_of_geophysics" title="Outline of geophysics">outline</a>)</li>
 <li><a href="/wiki/Glaciology" title="Glaciology">Glaciology</a></li>
 <li><a href="/wiki/Hydrogeology" title="Hydrogeology">Hydrogeology</a></li>
-<li><a href="/wiki/Hydrology" title="Hydrology">Hydrology</a> (<a href="/wiki/Outline_of_hydrology" title="Outline of hydrology">outline</a>)</li></ul>
-<p> 
+<li><a href="/wiki/Hydrology" title="Hydrology">Hydrology</a> (<a href="/wiki/Outline_of_hydrology" title="Outline of hydrology">outline</a>)</li></</pp> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
-<ul><li><a href="/wiki/Meteorology" title="Meteorology">Meteorology</a> (<a href="/wiki/Outline_of_meteorology" title="Outline of meteorology">outline</a>)</li>
+<li><a href="/wiki/Meteorology" title="Meteorology">Meteorology</a> (<a href="/wiki/Outline_of_meteorology" title="Outline of meteorology">outline</a>)</li>
 <li><a href="/wiki/Mineralogy" title="Mineralogy">Mineralogy</a></li>
 <li><a href="/wiki/Oceanography" title="Oceanography">Oceanography</a></li>
 <li><a href="/wiki/Pedology_(soil_study)" class="mw-redirect" title="Pedology (soil study)">Pedology</a></li>
@@ -1076,8 +1050,7 @@
 <li><a href="/wiki/Soil_science" title="Soil science">Soil science</a></li>
 <li><a href="/wiki/Speleology" title="Speleology">Speleology</a></li>
 <li><a href="/wiki/Tectonics" title="Tectonics">Tectonics</a></li>
-<li><a href="/wiki/Volcanology" title="Volcanology">Volcanology</a></li></ul>
-<p> 
+<li><a href="/wiki/Volcanology" title="Volcanology">Volcanology</a></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span class="mw-headline" id="Physics">Physics</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=29" title="Edit section: Physics">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -1114,8 +1087,7 @@
 <li><a href="/wiki/Statistical_mechanics" title="Statistical mechanics">Statistical mechanics</a></li>
 <li><a href="/wiki/Theoretical_physics" title="Theoretical physics">Theoretical physics</a></li>
 <li><a href="/wiki/Thermodynamics" title="Thermodynamics">Thermodynamics</a></li>
-<li><a href="/wiki/Vehicle_dynamics" title="Vehicle dynamics">Vehicle dynamics</a></li></ul>
-<p> 
+<li><a href="/wiki/Vehicle_dynamics" title="Vehicle dynamics">Vehicle dynamics</a></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span class="mw-headline" id="Space_sciences">Space sciences</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=30" title="Edit section: Space sciences">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -1138,12 +1110,11 @@
 <li><a href="/wiki/Gamma_ray_astronomy" class="mw-redirect" title="Gamma ray astronomy">Gamma ray astronomy</a></li></ul></li></ul></li>
 <li><a href="/wiki/Astrophysics" title="Astrophysics">Astrophysics</a>
 <ul><li><a href="/wiki/Gravity" title="Gravity">Gravitational astronomy</a>
-<ul><li><a href="/wiki/Black_hole" title="Black hole">Black holes</a></li></ul></li></ul></li></ul>
-<p> 
+<ul><li><a href="/wiki/Black_hole" title="Black hole">Black holes</a></li></ul></li></ul></li></</pp> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
-<ul><li><ul><li><a href="/wiki/Interstellar_medium" title="Interstellar medium">Interstellar medium</a></li>
+<li><a href="/wiki/Interstellar_medium" title="Interstellar medium">Interstellar medium</a></li>
 <li><a href="/wiki/Direct_numerical_simulation" title="Direct numerical simulation">Numerical simulations</a>
 <ul><li><a href="/wiki/Astrophysical_plasma" title="Astrophysical plasma">Astrophysical plasma</a></li>
 <li><a href="/wiki/Galaxy_formation_and_evolution" title="Galaxy formation and evolution">Galaxy formation and evolution</a></li>
@@ -1157,8 +1128,7 @@
 <li><a href="/wiki/Stellar_evolution" title="Stellar evolution">Stellar evolution</a></li>
 <li><a href="/wiki/Stellar_nucleosynthesis" title="Stellar nucleosynthesis">Stellar nucleosynthesis</a></li></ul></li></ul></li>
 <li><a href="/wiki/Cosmology" title="Cosmology">Cosmology</a></li>
-<li><a href="/wiki/Planetary_science" title="Planetary science">Planetary science</a> (alternatively, a part of <a href="/wiki/Earth_science" title="Earth science">earth science</a>)</li></ul>
-<p> 
+<li><a href="/wiki/Planetary_science" title="Planetary science">Planetary science</a> (alternatively, a part of <a href="/wiki/Earth_science" title="Earth science">earth science</a>)</li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h2><span class="mw-headline" id="Formal_sciences">Formal sciences</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=31" title="Edit section: Formal sciences">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
@@ -1221,12 +1191,11 @@
 <li><a href="/wiki/Program_semantics" class="mw-redirect" title="Program semantics">Program semantics</a></li>
 <li><a href="/wiki/Type_theory" title="Type theory">Type theory</a></li>
 <li><a href="/wiki/Compilers" class="mw-redirect" title="Compilers">Compilers</a></li></ul></li>
-<li><a href="/wiki/Human-computer_interaction" class="mw-redirect" title="Human-computer interaction">Human-computer interaction</a></li></ul>
-<p> 
+<li><a href="/wiki/Human-computer_interaction" class="mw-redirect" title="Human-computer interaction">Human-computer interaction</a></li></</pp> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
-<ul><li><a href="/wiki/Information_science" title="Information science">Information science</a> (<a href="/wiki/Outline_of_information_science" title="Outline of information science">outline</a>)
+<li><a href="/wiki/Information_science" title="Information science">Information science</a> (<a href="/wiki/Outline_of_information_science" title="Outline of information science">outline</a>)
 <ul><li><a href="/wiki/Data_management" title="Data management">Data management</a></li>
 <li><a href="/wiki/Data_mining" title="Data mining">Data mining</a></li>
 <li><a href="/wiki/Database" title="Database">Database</a> (<a href="/wiki/Outline_of_databases" title="Outline of databases">outline</a>)
@@ -1270,8 +1239,7 @@
 <li><a href="/wiki/History_of_computer_hardware" class="mw-redirect" title="History of computer hardware">History of computer hardware</a></li>
 <li><a href="/wiki/History_of_computer_science" title="History of computer science">History of computer science</a> (<a href="/wiki/Outline_of_computer_science#History_of_computer_science" title="Outline of computer science">outline</a>)</li>
 <li><a href="/wiki/Humanistic_informatics" title="Humanistic informatics">Humanistic informatics</a></li>
-<li><a href="/wiki/Community_informatics" title="Community informatics">Community informatics</a></li></ul></li></ul>
-<p> 
+<li><a href="/wiki/Community_informatics" title="Community informatics">Community informatics</a></li></ul></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span class="mw-headline" id="Logic">Logic</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=33" title="Edit section: Logic">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -1287,28 +1255,25 @@
 <li><a href="/wiki/Model_theory" title="Model theory">Model theory</a></li>
 <li><a href="/wiki/Recursion_theory" class="mw-redirect" title="Recursion theory">Recursion theory</a></li>
 <li><a href="/wiki/Modal_logic" title="Modal logic">Modal logic</a></li>
-<li><a href="/wiki/Intuitionistic_logic" title="Intuitionistic logic">Intuitionistic logic</a></li></ul></li></ul>
-<p> 
+<li><a href="/wiki/Intuitionistic_logic" title="Intuitionistic logic">Intuitionistic logic</a></li></ul></li></</pp> 
 </p>
 </td>
 <td style="width: 33.33%;text-align: left; vertical-align: top;">
-<ul><li><a href="/wiki/Philosophical_logic" title="Philosophical logic">Philosophical logic</a>
+<li><a href="/wiki/Philosophical_logic" title="Philosophical logic">Philosophical logic</a>
 <ul><li><a href="/wiki/Logical_reasoning" title="Logical reasoning">Logical reasoning</a></li>
 <li><a href="/wiki/Modal_logic" title="Modal logic">Modal logic</a>
 <ul><li><a href="/wiki/Deontic_logic" title="Deontic logic">Deontic logic</a></li>
-<li><a href="/wiki/Doxastic_logic" title="Doxastic logic">Doxastic logic</a></li></ul></li></ul></li></ul>
-<p> 
+<li><a href="/wiki/Doxastic_logic" title="Doxastic logic">Doxastic logic</a></li></ul></li></ul></li></</pp> 
 </p>
 </td>
 <td style="width: 33.33%;text-align: left; vertical-align: top;">
-<ul><li><a href="/wiki/Logic_in_computer_science" title="Logic in computer science">Logic in computer science</a>
+<li><a href="/wiki/Logic_in_computer_science" title="Logic in computer science">Logic in computer science</a>
 <ul><li><a href="/wiki/Formal_semantics_of_programming_languages" class="mw-redirect" title="Formal semantics of programming languages">Programming language semantics</a></li>
 <li><a href="/wiki/Formal_methods" title="Formal methods">Formal methods</a> (<a href="/wiki/Formal_verification" title="Formal verification">Formal verification</a>)</li>
 <li><a href="/wiki/Type_theory" title="Type theory">Type theory</a></li>
 <li><a href="/wiki/Logic_programming" title="Logic programming">Logic programming</a></li>
 <li><a href="/wiki/Multi-valued_logic" class="mw-redirect" title="Multi-valued logic">Multi-valued logic</a>
-<ul><li><a href="/wiki/Fuzzy_logic" title="Fuzzy logic">Fuzzy logic</a></li></ul></li></ul></li></ul>
-<p> 
+<ul><li><a href="/wiki/Fuzzy_logic" title="Fuzzy logic">Fuzzy logic</a></li></ul></li></ul></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span class="mw-headline" id="Mathematics">Mathematics</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=34" title="Edit section: Mathematics">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -1351,12 +1316,11 @@
 <ul><li><a href="/wiki/Measure_theory" class="mw-redirect" title="Measure theory">Measure theory</a>
 <ul><li><a href="/wiki/Integral_geometry" title="Integral geometry">Integral geometry</a></li></ul></li>
 <li><a href="/wiki/Ergodic_theory" title="Ergodic theory">Ergodic theory</a></li>
-<li><a href="/wiki/Stochastic_process" title="Stochastic process">Stochastic process</a></li></ul></li></ul>
-<p> 
+<li><a href="/wiki/Stochastic_process" title="Stochastic process">Stochastic process</a></li></ul></li></</pp> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
-<ul><li><a href="/wiki/Geometry" title="Geometry">Geometry</a> (<a href="/wiki/Outline_of_geometry" title="Outline of geometry">outline</a>) and <a href="/wiki/Topology" title="Topology">Topology</a>
+<li><a href="/wiki/Geometry" title="Geometry">Geometry</a> (<a href="/wiki/Outline_of_geometry" title="Outline of geometry">outline</a>) and <a href="/wiki/Topology" title="Topology">Topology</a>
 <ul><li><a href="/wiki/General_topology" title="General topology">General topology</a></li>
 <li><a href="/wiki/Algebraic_topology" title="Algebraic topology">Algebraic topology</a></li>
 <li><a href="/wiki/Geometric_topology" title="Geometric topology">Geometric topology</a></li>
@@ -1382,8 +1346,7 @@
 <li><a href="/wiki/Model_theory" title="Model theory">Model theory</a></li>
 <li><a href="/wiki/Recursion_theory" class="mw-redirect" title="Recursion theory">Recursion theory</a></li>
 <li><a href="/wiki/Modal_logic" title="Modal logic">Modal logic</a></li>
-<li><a href="/wiki/Intuitionistic_logic" title="Intuitionistic logic">Intuitionistic logic</a></li></ul></li></ul>
-<p> 
+<li><a href="/wiki/Intuitionistic_logic" title="Intuitionistic logic">Intuitionistic logic</a></li></ul></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h4><span class="mw-headline" id="Applied_mathematics">Applied mathematics</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=36" title="Edit section: Applied mathematics">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
@@ -1406,12 +1369,11 @@
 <li><a href="/wiki/Real_options_analysis" class="mw-redirect" title="Real options analysis">Real options analysis</a></li>
 <li><a href="/wiki/Systems_analysis" title="Systems analysis">Systems analysis</a></li>
 <li><a href="/wiki/Stochastic_processes" class="mw-redirect" title="Stochastic processes">Stochastic processes</a></li>
-<li><a href="/wiki/Optimal_maintenance" title="Optimal maintenance">Optimal maintenance</a></li></ul></li></ul>
-<p> 
+<li><a href="/wiki/Optimal_maintenance" title="Optimal maintenance">Optimal maintenance</a></li></ul></li></</pp> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
-<ul><li><a href="/wiki/Dynamical_systems" class="mw-redirect" title="Dynamical systems">Dynamical systems</a>
+<li><a href="/wiki/Dynamical_systems" class="mw-redirect" title="Dynamical systems">Dynamical systems</a>
 <ul><li><a href="/wiki/Chaos_theory" title="Chaos theory">Chaos theory</a></li>
 <li><a href="/wiki/Fractal_geometry" class="mw-redirect" title="Fractal geometry">Fractal geometry</a></li></ul></li>
 <li><a href="/wiki/Mathematical_physics" title="Mathematical physics">Mathematical physics</a>
@@ -1428,11 +1390,10 @@
 <li><a href="/wiki/Combinatorics" title="Combinatorics">Combinatorics</a> (<a href="/wiki/Outline_of_combinatorics" title="Outline of combinatorics">outline</a>)
 <ul><li><a href="/wiki/Coding_theory" title="Coding theory">Coding theory</a></li></ul></li>
 <li><a href="/wiki/Graph_theory" title="Graph theory">Graph theory</a></li>
-<li><a href="/wiki/Game_theory" title="Game theory">Game theory</a></li></ul>
-<p> 
+<li><a href="/wiki/Game_theory" title="Game theory">Game theory</a></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
-<h5><span class="mw-headline" id="Statistics">Statistics</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=37" title="Edit section: Statistics">edit</a><span class="mw-editsection-bracket">]</span></span></h5>
+<h4><span class="mw-headline" id="Statistics">Statistics</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=37" title="Edit section: Statistics">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
 <div role="note" class="hatnote navigation-not-searchable">Main articles: <a href="/wiki/Statistics" title="Statistics">Statistics</a> and <a href="/wiki/Outline_of_statistics" title="Outline of statistics">Outline of statistics</a></div>
 <div>
 
@@ -1452,12 +1413,11 @@
 <ul><li><a href="/wiki/Block_design" title="Block design">Block design</a> and <a href="/wiki/Analysis_of_variance" title="Analysis of variance">Analysis of variance</a></li>
 <li><a href="/wiki/Response_surface_methodology" title="Response surface methodology">Response surface methodology</a></li></ul></li>
 <li><a href="/wiki/Survey_sampling" title="Survey sampling">Sample Survey</a>
-<ul><li><a href="/wiki/Statistical_sampling" class="mw-redirect" title="Statistical sampling">Sampling theory</a></li></ul></li></ul>
-<p> 
+<ul><li><a href="/wiki/Statistical_sampling" class="mw-redirect" title="Statistical sampling">Sampling theory</a></li></ul></li></</pp> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
-<ul><li><a href="/wiki/Statistical_model" title="Statistical model">Statistical modelling</a>
+<li><a href="/wiki/Statistical_model" title="Statistical model">Statistical modelling</a>
 <ul><li><a href="/wiki/Biostatistics" title="Biostatistics">Biostatistics</a>
 <ul><li><a href="/wiki/Epidemiology" title="Epidemiology">Epidemiology</a></li></ul></li>
 <li><a href="/wiki/Multivariate_analysis" title="Multivariate analysis">Multivariate analysis</a>
@@ -1469,8 +1429,7 @@
 <ul><li><a href="/wiki/Decision_theory" title="Decision theory">Decision theory</a></li>
 <li><a href="/wiki/Mathematical_statistics" title="Mathematical statistics">Mathematical statistics</a>
 <ul><li><a href="/wiki/Probability" title="Probability">Probability</a> (<a href="/wiki/Outline_of_probability" title="Outline of probability">outline</a>)</li></ul></li>
-<li><a href="/wiki/Survey_(statistics)" class="mw-redirect" title="Survey (statistics)">Survey methodology</a></li></ul></li></ul>
-<p> 
+<li><a href="/wiki/Survey_(statistics)" class="mw-redirect" title="Survey (statistics)">Survey methodology</a></li></ul></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span class="mw-headline" id="Systems_science">Systems science</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=38" title="Edit section: Systems science">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -1498,12 +1457,11 @@
 <li><a href="/wiki/Control_engineering" title="Control engineering">Control engineering</a></li>
 <li><a href="/wiki/Control_systems" class="mw-redirect" title="Control systems">Control systems</a></li>
 <li><a href="/wiki/Dynamical_systems" class="mw-redirect" title="Dynamical systems">Dynamical systems</a></li>
-<li><a href="/wiki/Perceptual_control_theory" title="Perceptual control theory">Perceptual control theory</a></li></ul></li></ul>
-<p> 
+<li><a href="/wiki/Perceptual_control_theory" title="Perceptual control theory">Perceptual control theory</a></li></ul></li></</pp> 
 </p>
 </td>
 <td style="width: 33.33%;text-align: left; vertical-align: top;">
-<ul><li><a href="/wiki/Operations_research" title="Operations research">Operations research</a></li>
+<li><a href="/wiki/Operations_research" title="Operations research">Operations research</a></li>
 <li><a href="/wiki/Systems_biology" title="Systems biology">Systems biology</a>
 <ul><li><a href="/wiki/Computational_systems_biology" class="mw-redirect" title="Computational systems biology">Computational systems biology</a></li>
 <li><a href="/wiki/Synthetic_biology" title="Synthetic biology">Synthetic biology</a></li>
@@ -1518,12 +1476,11 @@
 <li><a href="/wiki/Earth_systems_engineering_and_management" title="Earth systems engineering and management">Earth systems engineering and management</a></li>
 <li><a href="/wiki/Enterprise_systems_engineering" title="Enterprise systems engineering">Enterprise systems engineering</a></li>
 <li><a href="/wiki/Systems_analysis" title="Systems analysis">Systems analysis</a></li></ul></li>
-<li><a href="/wiki/Systems_theory_in_anthropology" title="Systems theory in anthropology">Systems theory in anthropology</a></li></ul>
-<p> 
+<li><a href="/wiki/Systems_theory_in_anthropology" title="Systems theory in anthropology">Systems theory in anthropology</a></li></</pp> 
 </p>
 </td>
 <td style="width: 33.33%;text-align: left; vertical-align: top;">
-<ul><li><a href="/wiki/Systems_psychology" title="Systems psychology">Systems psychology</a>
+<li><a href="/wiki/Systems_psychology" title="Systems psychology">Systems psychology</a>
 <ul><li><a href="/wiki/Ergonomics" class="mw-redirect" title="Ergonomics">Ergonomics</a></li>
 <li><a href="/wiki/Family_systems_theory" class="mw-redirect" title="Family systems theory">Family systems theory</a></li>
 <li><a href="/wiki/Systemic_therapy" class="mw-redirect" title="Systemic therapy">Systemic therapy</a></li></ul></li>
@@ -1536,8 +1493,7 @@
 <li><a href="/wiki/LTI_system_theory" class="mw-redirect" title="LTI system theory">LTI system theory</a></li>
 <li><a href="/wiki/Sociotechnical_systems_theory" class="mw-redirect" title="Sociotechnical systems theory">Sociotechnical systems theory</a></li>
 <li><a href="/wiki/Mathematical_system_theory" class="mw-redirect" title="Mathematical system theory">Mathematical system theory</a></li>
-<li><a href="/wiki/World-systems_theory" title="World-systems theory">World-systems theory</a></li></ul></li></ul>
-<p> 
+<li><a href="/wiki/World-systems_theory" title="World-systems theory">World-systems theory</a></li></ul></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h2><span class="mw-headline" id="Professions_and_applied_sciences">Professions and applied sciences</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=39" title="Edit section: Professions and applied sciences">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
@@ -1558,12 +1514,11 @@
 <li><a href="/wiki/Agricultural_economics" title="Agricultural economics">Agricultural economics</a></li>
 <li><a href="/wiki/Agricultural_engineering" title="Agricultural engineering">Agricultural engineering</a>
 <ul><li><a href="/wiki/Biological_systems_engineering" title="Biological systems engineering">Biological systems engineering</a></li>
-<li><a href="/wiki/Food_engineering" title="Food engineering">Food engineering</a></li></ul></li></ul>
-<p> 
+<li><a href="/wiki/Food_engineering" title="Food engineering">Food engineering</a></li></ul></li></</pp> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
-<ul><li><a href="/wiki/Aquaculture" title="Aquaculture">Aquaculture</a></li>
+<li><a href="/wiki/Aquaculture" title="Aquaculture">Aquaculture</a></li>
 <li><a href="/wiki/Enology" class="mw-redirect" title="Enology">Enology</a></li>
 <li><a href="/wiki/Food_science" title="Food science">Food science</a></li>
 <li><a href="/wiki/Horticulture" title="Horticulture">Horticulture</a></li>
@@ -1574,8 +1529,7 @@
 <ul><li><a href="/wiki/Pomology" title="Pomology">Pomology</a></li></ul></li>
 <li><a href="/wiki/Pest_control" title="Pest control">Pest control</a></li>
 <li><a href="/wiki/Purification" class="mw-disambig" title="Purification">Purification</a><sup class="plainlinks noprint Inline-Template" style="vertical-align:text-top;white-space:nowrap;">[<i><a rel="nofollow" class="external text" href="http://dispenser.info.tm/~dispenser/cgi-bin/dab_solver.py?page=List_of_academic_fields&amp;editintro=Template:Disambiguation_needed/editintro&amp;client=Template:Dn"><span title="Link needs disambiguation. (August 2018)">disambiguation needed</span></a></i>]</sup></li>
-<li><a href="/wiki/Viticulture" title="Viticulture">Viticulture</a></li></ul>
-<p> 
+<li><a href="/wiki/Viticulture" title="Viticulture">Viticulture</a></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span class="mw-headline" id="Architecture_and_design">Architecture and design</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=41" title="Edit section: Architecture and design">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -1597,12 +1551,11 @@
 <li><a href="/wiki/Visual_communication" title="Visual communication">Visual communication</a>
 <ul><li><a href="/wiki/Graphic_design" title="Graphic design">Graphic design</a>
 <ul><li><a href="/wiki/Type_design" title="Type design">Type design</a></li></ul></li>
-<li><a href="/wiki/Technical_drawing" title="Technical drawing">Technical drawing</a></li></ul></li></ul>
-<p> 
+<li><a href="/wiki/Technical_drawing" title="Technical drawing">Technical drawing</a></li></ul></li></</pp> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
-<ul><li><a href="/wiki/Industrial_design" title="Industrial design">Industrial design</a> (<a href="/wiki/Product_design" title="Product design">product design</a>)
+<li><a href="/wiki/Industrial_design" title="Industrial design">Industrial design</a> (<a href="/wiki/Product_design" title="Product design">product design</a>)
 <ul><li><a href="/wiki/Ergonomics" class="mw-redirect" title="Ergonomics">Ergonomics</a> (<a href="/wiki/Outline_of_ergonomics" title="Outline of ergonomics">outline</a>)</li>
 <li><a href="/wiki/Game_design" title="Game design">Game design</a></li>
 <li><a href="/wiki/Toy" title="Toy">Toy and amusement design</a></li></ul></li>
@@ -1613,8 +1566,7 @@
 <li><a href="/wiki/User_experience_evaluation" title="User experience evaluation">User experience evaluation</a></li></ul></li>
 <li><a href="/wiki/Decorative_arts" title="Decorative arts">Decorative arts</a></li>
 <li><a href="/wiki/Fashion_design" title="Fashion design">Fashion design</a></li>
-<li><a href="/wiki/Textile_design" title="Textile design">Textile design</a></li></ul>
-<p> 
+<li><a href="/wiki/Textile_design" title="Textile design">Textile design</a></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span class="mw-headline" id="Business">Business</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=42" title="Edit section: Business">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -1638,12 +1590,11 @@
 <li><a href="/wiki/Human_resources" title="Human resources">Human resources</a></li>
 <li><a href="/wiki/Organizational_studies" title="Organizational studies">Organizational studies</a></li>
 <li><a href="/wiki/Labor_economics" class="mw-redirect" title="Labor economics">Labor economics</a></li>
-<li><a href="/wiki/Labor_history_(discipline)" title="Labor history (discipline)">Labor history</a></li></ul></li></ul>
-<p> 
+<li><a href="/wiki/Labor_history_(discipline)" title="Labor history (discipline)">Labor history</a></li></ul></li></</pp> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
-<ul><li><a href="/wiki/Information_systems" class="mw-redirect" title="Information systems">Information systems</a> (<a href="/wiki/Business_informatics" title="Business informatics">Business informatics</a>)
+<li><a href="/wiki/Information_systems" class="mw-redirect" title="Information systems">Information systems</a> (<a href="/wiki/Business_informatics" title="Business informatics">Business informatics</a>)
 <ul><li><a href="/wiki/Management_information_systems" class="mw-redirect" title="Management information systems">Management information systems</a></li>
 <li><a href="/wiki/Health_informatics" title="Health informatics">Health informatics</a></li></ul></li>
 <li><a href="/wiki/Information_technology" title="Information technology">Information technology</a> (<a href="/wiki/Outline_of_information_technology" title="Outline of information technology">outline</a>)</li>
@@ -1653,8 +1604,7 @@
 <li><a href="/wiki/Operations_management" title="Operations management">Operations management</a></li>
 <li><a href="/wiki/Purchasing" title="Purchasing">Purchasing</a></li>
 <li><a href="/wiki/Risk_management" title="Risk management">Risk management</a> and <a href="/wiki/Insurance" title="Insurance">insurance</a></li>
-<li><a href="/wiki/Systems_science" title="Systems science">Systems science</a></li></ul>
-<p> 
+<li><a href="/wiki/Systems_science" title="Systems science">Systems science</a></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span class="mw-headline" id="Divinity">Divinity</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=43" title="Edit section: Divinity">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -1673,12 +1623,11 @@
 <li><a href="/wiki/Homiletics" title="Homiletics">Homiletics</a></li>
 <li><a href="/wiki/Liturgy" title="Liturgy">Liturgy</a></li>
 <li><a href="/wiki/Sacred_music" class="mw-redirect" title="Sacred music">Sacred music</a></li>
-<li><a href="/wiki/Missiology" title="Missiology">Missiology</a></li></ul></li></ul>
-<p> 
+<li><a href="/wiki/Missiology" title="Missiology">Missiology</a></li></ul></li></</pp> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
-<ul><li><a href="/wiki/Hermeneutics" title="Hermeneutics">Hermeneutics</a></li>
+<li><a href="/wiki/Hermeneutics" title="Hermeneutics">Hermeneutics</a></li>
 <li>Scriptural study and languages
 <ul><li><a href="/wiki/Biblical_Hebrew_language" class="mw-redirect" title="Biblical Hebrew language">Biblical Hebrew</a></li>
 <li><a href="/wiki/Biblical_studies" title="Biblical studies">Biblical studies</a>/<a href="/wiki/Sacred_scripture" class="mw-redirect" title="Sacred scripture">Sacred scripture</a></li>
@@ -1692,8 +1641,7 @@
 <li><a href="/wiki/Systematic_theology" title="Systematic theology">Systematic theology</a></li>
 <li><a href="/wiki/Christian_ethics" title="Christian ethics">Christian ethics</a></li>
 <li><a href="/wiki/Moral_theology" class="mw-redirect" title="Moral theology">Moral theology</a></li>
-<li><a href="/wiki/Historical_theology" title="Historical theology">Historical theology</a></li></ul></li></ul>
-<p> 
+<li><a href="/wiki/Historical_theology" title="Historical theology">Historical theology</a></li></ul></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span class="mw-headline" id="Education">Education</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=44" title="Edit section: Education">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -1741,8 +1689,7 @@
 <li><a href="/wiki/Educational_philosophy" class="mw-redirect" title="Educational philosophy">Educational philosophy</a></li>
 <li><a href="/wiki/Educational_psychology" title="Educational psychology">Educational psychology</a></li>
 <li><a href="/wiki/Educational_technology" title="Educational technology">Educational technology</a></li>
-<li><a href="/wiki/Distance_education" title="Distance education">Distance education</a></li></ul>
-<p> 
+<li><a href="/wiki/Distance_education" title="Distance education">Distance education</a></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span class="mw-headline" id="Engineering_and_technology">Engineering and technology</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=45" title="Edit section: Engineering and technology">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -1753,7 +1700,7 @@
  
 <table class="multicol" role="presentation" style="border-collapse: collapse; padding: 0; border: 0; background:transparent; width:95%;"><tbody><tr>
 <td style="width: 50%;text-align: left; vertical-align: top;">
-<p><b><a href="/wiki/Chemical_engineering" title="Chemical engineering">Chemical Engineering</a></b>
+<p><li><b><a href="/wiki/Chemical_engineering" title="Chemical engineering">Chemical Engineering</a></b>
 </p>
 <ul><li><a href="/wiki/Bioengineering" class="mw-redirect" title="Bioengineering">Bioengineering</a>
 <ul><li><a href="/wiki/Biochemical_engineering" title="Biochemical engineering">Biochemical engineering</a></li>
@@ -1770,8 +1717,7 @@
 <li><a href="/wiki/Process_engineering" title="Process engineering">Process engineering</a></li>
 <li><a href="/wiki/Reaction_engineering" class="mw-redirect" title="Reaction engineering">Reaction engineering</a></li>
 <li><a href="/wiki/Thermodynamics" title="Thermodynamics">Thermodynamics</a></li>
-<li><a href="/wiki/Transport_phenomena" title="Transport phenomena">Transport phenomena</a></li></ul>
-<p><b><a href="/wiki/Civil_engineering" title="Civil engineering">Civil Engineering</a></b>
+<li><a href="/wiki/Transport_phenomena" title="Transport phenomena">Transport phenomena</a></li></ul><b><li><a href="/wiki/Civil_engineering" title="Civil engineering">Civil Engineering</a></b>
 </p>
 <ul><li><a href="/wiki/Coastal_engineering" title="Coastal engineering">Coastal engineering</a></li>
 <li><a href="/wiki/Construction" title="Construction">Construction</a></li>
@@ -1788,8 +1734,8 @@
 <li><a href="/wiki/Structural_engineering" title="Structural engineering">Structural engineering</a>
 <ul><li><a href="/wiki/Architectural_engineering" title="Architectural engineering">Architectural engineering</a></li></ul></li>
 <li><a href="/wiki/Structural_mechanics" title="Structural mechanics">Structural mechanics</a></li>
-<li><a href="/wiki/Surveying" title="Surveying">Surveying</a></li></ul>
-<p><b><a href="/wiki/Electrical_engineering" title="Electrical engineering">Electrical Engineering</a></b>
+<li><a href="/wiki/Surveying" title="Surveying">Surveying</a></li></</ul>
+<b><li><a href="/wiki/Electrical_engineering" title="Electrical engineering">Electrical Engineering</a></b>
 </p>
 <ul><li><a href="/wiki/Applied_physics" title="Applied physics">Applied physics</a></li>
 <li><a href="/wiki/Computer_engineering" title="Computer engineering">Computer engineering</a> (<a href="/wiki/Outline_of_computer_engineering" title="Outline of computer engineering">outline</a>)</li>
@@ -1806,12 +1752,11 @@
 <li><a href="/wiki/Robotics" title="Robotics">Robotics</a> (<a href="/wiki/Outline_of_robotics" title="Outline of robotics">outline</a>)</li>
 <li><a href="/wiki/Semiconductors" class="mw-redirect" title="Semiconductors">Semiconductors</a></li>
 <li><a href="/wiki/Telecommunications_engineering" title="Telecommunications engineering">Telecommunications engineering</a></li>
-<li><a href="/wiki/Quantum_computing" title="Quantum computing">Quantum computing</a></li></ul>
-<p> 
+<li><a href="/wiki/Quantum_computing" title="Quantum computing">Quantum computing</a></li></</ul> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
-<p><b><a href="/wiki/Materials_science" title="Materials science">Materials Science and Engineering</a></b>
+<p><b><li><a href="/wiki/Materials_science" title="Materials science">Materials Science and Engineering</a></b>
 </p>
 <ul><li><a href="/wiki/Biomaterials" class="mw-redirect" title="Biomaterials">Biomaterials</a></li>
 <li><a href="/wiki/Ceramic_engineering" title="Ceramic engineering">Ceramic engineering</a></li>
@@ -1821,8 +1766,8 @@
 <li><a href="/wiki/Metallurgy" title="Metallurgy">Physical Metallurgy</a></li>
 <li><a href="/wiki/Polymer_engineering" title="Polymer engineering">Polymer engineering</a></li>
 <li><a href="/wiki/Polymer_science" title="Polymer science">Polymer science</a></li>
-<li><a href="/wiki/Semiconductors" class="mw-redirect" title="Semiconductors">Semiconductors</a></li></ul>
-<p><b><a href="/wiki/Mechanical_engineering" title="Mechanical engineering">Mechanical Engineering</a></b>
+<li><a href="/wiki/Semiconductors" class="mw-redirect" title="Semiconductors">Semiconductors</a></li></</ul>
+<b><li><a href="/wiki/Mechanical_engineering" title="Mechanical engineering">Mechanical Engineering</a></b>
 </p>
 <ul><li><a href="/wiki/Aerospace_engineering" title="Aerospace engineering">Aerospace engineering</a>
 <ul><li><a href="/wiki/Aeronautics" title="Aeronautics">Aeronautics</a></li>
@@ -1844,8 +1789,7 @@
 <li><a href="/wiki/Optical_engineering" title="Optical engineering">Optical engineering</a></li>
 <li><a href="/wiki/Robotics" title="Robotics">Robotics</a></li>
 <li><a href="/wiki/Thermodynamics" title="Thermodynamics">Thermodynamics</a></li>
-<li><a href="/wiki/Vehicle_engineering" title="Vehicle engineering">Vehicle engineering</a></li></ul>
-<p> 
+<li><a href="/wiki/Vehicle_engineering" title="Vehicle engineering">Vehicle engineering</a></li></</ul> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span class="mw-headline" id="Environmental_studies_and_forestry">Environmental studies and forestry</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=46" title="Edit section: Environmental studies and forestry">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -1861,20 +1805,18 @@
 <li><a href="/wiki/Land_management" title="Land management">Land management</a></li>
 <li><a href="/wiki/Natural_resource_management" title="Natural resource management">Natural resource management</a></li>
 <li><a href="/wiki/Waste_management" title="Waste management">Waste management</a></li>
-<li><a href="/wiki/Wildlife_management" title="Wildlife management">Wildlife management</a></li></ul></li></ul>
-<p> 
+<li><a href="/wiki/Wildlife_management" title="Wildlife management">Wildlife management</a></li></ul></li></</pp> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
-<ul><li><a href="/wiki/Environmental_policy" title="Environmental policy">Environmental policy</a></li>
+<li><a href="/wiki/Environmental_policy" title="Environmental policy">Environmental policy</a></li>
 <li><a href="/wiki/Wildlife_observation" title="Wildlife observation">Wildlife observation</a></li>
 <li><a href="/wiki/Recreation_ecology" title="Recreation ecology">Recreation ecology</a></li>
 <li><a href="/wiki/Silviculture" title="Silviculture">Silviculture</a></li>
 <li><a href="/wiki/Sustainability_studies" title="Sustainability studies">Sustainability studies</a>
 <ul><li><a href="/wiki/Sustainable_development" title="Sustainable development">Sustainable development</a></li></ul></li>
 <li><a href="/wiki/Toxicology" title="Toxicology">Toxicology</a></li>
-<li><a href="/wiki/Ecology" title="Ecology">Ecology</a></li></ul>
-<p> 
+<li><a href="/wiki/Ecology" title="Ecology">Ecology</a></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span class="mw-headline" id="Family_and_consumer_science">Family and consumer science</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=47" title="Edit section: Family and consumer science">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -1886,15 +1828,13 @@
 <td style="width: 50%;text-align: left; vertical-align: top;">
 <ul><li><a href="/wiki/Consumer_education" title="Consumer education">Consumer education</a></li>
 <li><a href="/wiki/Housing" title="Housing">Housing</a></li>
-<li><a href="/wiki/Interior_design" title="Interior design">Interior design</a></li></ul>
-<p> 
+<li><a href="/wiki/Interior_design" title="Interior design">Interior design</a></li></</pp> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
-<ul><li><a href="/wiki/Nutrition" title="Nutrition">Nutrition</a> (<a href="/wiki/Outline_of_nutrition" title="Outline of nutrition">outline</a>)
+<li><a href="/wiki/Nutrition" title="Nutrition">Nutrition</a> (<a href="/wiki/Outline_of_nutrition" title="Outline of nutrition">outline</a>)
 <ul><li><a href="/wiki/Foodservice" title="Foodservice">Foodservice management</a></li></ul></li>
-<li><a href="/wiki/Textile" title="Textile">Textiles</a></li></ul>
-<p> 
+<li><a href="/wiki/Textile" title="Textile">Textiles</a></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span class="mw-headline" id="Human_physical_performance_and_recreation">Human physical performance and recreation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=48" title="Edit section: Human physical performance and recreation">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -1913,12 +1853,11 @@
 <li><a href="/wiki/Personal_trainer" title="Personal trainer">Personal trainer</a> / <a href="/wiki/Personal_fitness_training" class="mw-redirect" title="Personal fitness training">Personal fitness training</a></li></ul></li>
 <li><a href="/wiki/Game_design" title="Game design">Game design</a></li>
 <li><a href="/wiki/Exercise_physiology" title="Exercise physiology">Exercise physiology</a></li>
-<li><a href="/wiki/Kinesiology" title="Kinesiology">Kinesiology</a> / <a href="/wiki/Exercise_physiology" title="Exercise physiology">Exercise physiology</a> / <a href="/wiki/Performance_science" title="Performance science">Performance science</a></li></ul>
-<p> 
+<li><a href="/wiki/Kinesiology" title="Kinesiology">Kinesiology</a> / <a href="/wiki/Exercise_physiology" title="Exercise physiology">Exercise physiology</a> / <a href="/wiki/Performance_science" title="Performance science">Performance science</a></li></</pp> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
-<ul><li><a href="/wiki/Leisure_studies" title="Leisure studies">Leisure studies</a></li>
+<li><a href="/wiki/Leisure_studies" title="Leisure studies">Leisure studies</a></li>
 <li><a href="/wiki/Navigation" title="Navigation">Navigation</a></li>
 <li><a href="/wiki/Outdoor_activity" class="mw-redirect" title="Outdoor activity">Outdoor activity</a></li>
 <li><a href="/wiki/Physical_activity" title="Physical activity">Physical activity</a></li>
@@ -1936,8 +1875,7 @@
 <li><a href="/wiki/Bushcraft" title="Bushcraft">Bushcraft</a></li>
 <li><a href="/wiki/Scoutcraft" title="Scoutcraft">Scoutcraft</a></li>
 <li><a href="/wiki/Woodcraft" title="Woodcraft">Woodcraft</a></li></ul></li>
-<li><a href="/wiki/Toy" title="Toy">Toy and amusement design</a></li></ul>
-<p> 
+<li><a href="/wiki/Toy" title="Toy">Toy and amusement design</a></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span id="Journalism.2C_media_studies_and_communication"></span><span class="mw-headline" id="Journalism,_media_studies_and_communication">Journalism, media studies and communication</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=49" title="Edit section: Journalism, media studies and communication">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -1962,12 +1900,11 @@
 <ul><li><a href="/wiki/Television_studies" title="Television studies">Television studies</a></li></ul></li>
 <li><a href="/wiki/Film" title="Film">Film</a> (<a href="/wiki/Outline_of_film" title="Outline of film">outline</a>)
 <ul><li><a href="/wiki/Film_studies" title="Film studies">Film studies</a></li></ul></li>
-<li><a href="/wiki/Internet" title="Internet">Internet</a> (<a href="/wiki/Outline_of_the_Internet" title="Outline of the Internet">outline</a>)</li></ul></li></ul>
-<p> 
+<li><a href="/wiki/Internet" title="Internet">Internet</a> (<a href="/wiki/Outline_of_the_Internet" title="Outline of the Internet">outline</a>)</li></ul></li></</pp> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
-<ul><li><a href="/wiki/Communication_studies" title="Communication studies">Communication studies</a>
+<li><a href="/wiki/Communication_studies" title="Communication studies">Communication studies</a>
 <ul><li><a href="/wiki/Advertising" title="Advertising">Advertising</a></li>
 <li><a href="/wiki/Animal_communication" title="Animal communication">Animal communication</a></li>
 <li><a href="/wiki/Communication_design" title="Communication design">Communication design</a></li>
@@ -1987,8 +1924,7 @@
 <li><a href="/wiki/Public_relations" title="Public relations">Public relations</a> (<a href="/wiki/Outline_of_public_relations" title="Outline of public relations">outline</a>)</li>
 <li><a href="/wiki/Speech" title="Speech">Speech communication</a></li>
 <li><a href="/wiki/Technical_writing" title="Technical writing">Technical writing</a></li>
-<li><a href="/wiki/Translation" title="Translation">Translation</a></li></ul></li></ul>
-<p> 
+<li><a href="/wiki/Translation" title="Translation">Translation</a></li></ul></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span class="mw-headline" id="Law">Law</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=50" title="Edit section: Law">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -2014,12 +1950,11 @@
 <li><a href="/wiki/Forensic_science" title="Forensic science">Forensic science</a> (<a href="/wiki/Outline_of_forensic_science" title="Outline of forensic science">outline</a>)</li></ul></li></ul></li>
 <li><a href="/wiki/Sharia" title="Sharia">Islamic law</a></li>
 <li><a href="/wiki/Jewish_law" class="mw-redirect" title="Jewish law">Jewish law</a> (<a href="/wiki/Outline_of_Jewish_law" title="Outline of Jewish law">outline</a>)</li>
-<li><a href="/wiki/Jurisprudence" title="Jurisprudence">Jurisprudence</a> (<a href="/wiki/Philosophy_of_Law" class="mw-redirect" title="Philosophy of Law">Philosophy of Law</a>)</li></ul>
-<p> 
+<li><a href="/wiki/Jurisprudence" title="Jurisprudence">Jurisprudence</a> (<a href="/wiki/Philosophy_of_Law" class="mw-redirect" title="Philosophy of Law">Philosophy of Law</a>)</li></</pp> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
-<ul><li><a href="/wiki/Civil_law_(common_law)" title="Civil law (common law)">Civil law</a>
+<li><a href="/wiki/Civil_law_(common_law)" title="Civil law (common law)">Civil law</a>
 <ul><li><a href="/wiki/Admiralty_law" title="Admiralty law">Admiralty law</a></li>
 <li><a href="/wiki/Animal_law" title="Animal law">Animal law</a>/<a href="/wiki/Animal_rights" title="Animal rights">Animal rights</a></li>
 <li><a href="/wiki/Common_law" title="Common law">Common law</a></li>
@@ -2039,8 +1974,7 @@
 <li><a href="/wiki/Tort_law" class="mw-redirect" title="Tort law">Tort law</a> (<a href="/wiki/Outline_of_tort_law" title="Outline of tort law">outline</a>)</li></ul></li>
 <li><a href="/wiki/Law_enforcement" title="Law enforcement">Law enforcement</a> (<a href="/wiki/Outline_of_law_enforcement" title="Outline of law enforcement">outline</a>)</li>
 <li><a href="/wiki/Procedural_law" title="Procedural law">Procedural law</a></li>
-<li><a href="/wiki/Substantive_law" title="Substantive law">Substantive law</a></li></ul>
-<p> 
+<li><a href="/wiki/Substantive_law" title="Substantive law">Substantive law</a></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span class="mw-headline" id="Library_and_museum_studies">Library and museum studies</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=51" title="Edit section: Library and museum studies">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -2053,17 +1987,15 @@
 <ul><li><a href="/wiki/Archival_science" title="Archival science">Archival science</a></li>
 <li><a href="/wiki/Bibliometrics" title="Bibliometrics">Bibliometrics</a>
 <ul><li><a href="/wiki/Citation_analysis" title="Citation analysis">Citation analysis</a></li></ul></li>
-<li><a href="/wiki/Conservation_science_(cultural_heritage)" title="Conservation science (cultural heritage)">Conservation science</a></li></ul>
-<p> 
+<li><a href="/wiki/Conservation_science_(cultural_heritage)" title="Conservation science (cultural heritage)">Conservation science</a></li></</pp> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
-<ul><li><a href="/wiki/Informatics" title="Informatics">Informatics</a></li>
+<li><a href="/wiki/Informatics" title="Informatics">Informatics</a></li>
 <li><a href="/wiki/Information_architecture" title="Information architecture">Information architecture</a></li>
 <li><a href="/wiki/Information_science" title="Information science">Information science</a> (<a href="/wiki/Outline_of_information_science" title="Outline of information science">outline</a>)</li>
 <li><a href="/wiki/Museology" title="Museology">Museology</a>
-<ul><li><a href="/wiki/Arts_administration" title="Arts administration">Museum administration</a></li></ul></li></ul>
-<p> 
+<ul><li><a href="/wiki/Arts_administration" title="Arts administration">Museum administration</a></li></ul></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span class="mw-headline" id="Medicine">Medicine</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=52" title="Edit section: Medicine">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -2227,12 +2159,11 @@
 <li><a href="/wiki/Military_technology" title="Military technology">Technology and equipment</a></li>
 <li><a href="/wiki/Military_exercises" class="mw-redirect" title="Military exercises">Military exercises</a></li>
 <li><a href="/wiki/Military_simulation" title="Military simulation">Military simulation</a></li>
-<li><a href="/wiki/Military_sports" title="Military sports">Military sports</a></li></ul></li></ul>
-<p> 
+<li><a href="/wiki/Military_sports" title="Military sports">Military sports</a></li></ul></li></</pp> 
 </p>
 </td>
 <td style="width: 50%;text-align: left; vertical-align: top;">
-<ul><li><a href="/wiki/Strategy" title="Strategy">Strategy</a>
+<li><a href="/wiki/Strategy" title="Strategy">Strategy</a>
 <ul><li><a href="/wiki/Attrition_warfare" title="Attrition warfare">Attrition</a></li>
 <li><a href="/wiki/Military_deception" title="Military deception">Deception</a></li>
 <li><a href="/wiki/Strategic_defence" title="Strategic defence">Defensive</a></li>
@@ -2310,8 +2241,7 @@
 <li><a href="/wiki/Theft" title="Theft">Theft</a></li>
 <li><a href="/wiki/Undercover_operation" title="Undercover operation">Undercover</a></li>
 <li><a href="/wiki/War_crime" title="War crime">War crimes</a></li>
-<li><a href="/wiki/Warrior" title="Warrior">Warrior</a></li></ul></li></ul>
-<p> 
+<li><a href="/wiki/Warrior" title="Warrior">Warrior</a></li></ul></li></</pp> 
 </p>
 </td></tr></tbody></table></div>
 <h3><span class="mw-headline" id="Public_administration">Public administration</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=54" title="Edit section: Public administration">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
@@ -2341,7 +2271,7 @@
 <li><a href="/wiki/Regulation" title="Regulation">Regulation</a></li></ul></li>
 <li><a href="/wiki/Public_safety" class="mw-redirect" title="Public safety">Public safety</a></li>
 <li><a href="/wiki/Public_service" title="Public service">Public service</a></li></ul>
-<h4><span class="mw-headline" id="Public_policy">Public policy</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=55" title="Edit section: Public policy">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<h3><span class="mw-headline" id="Public_policy">Public policy</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=List_of_academic_fields&amp;action=edit&amp;section=55" title="Edit section: Public policy">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
 <div role="note" class="hatnote navigation-not-searchable">Main article: <a href="/wiki/Public_policy" title="Public policy">Public policy</a></div>
 <ul><li><a href="/wiki/Agricultural_policy" title="Agricultural policy">Agricultural policy</a></li>
 <li><a href="/wiki/Commercial_policy" title="Commercial policy">Commercial policy</a></li>

@@ -31,24 +31,47 @@ def readCorpus(file,item):
                 return True
     return False
 
-#Construct ontology to use later
-#ontology = ontologyConstruction.ontology("Science")
+#Load ontology to use later
+ontology = pickle.load(open("academicOntology","rb"))
 
 #Function that searches for the subject
-'''def findSub(ontology,text):
-    inText = re.search(ontology.subject,text,re.IGNORECASE)
-    if not inText:  #Sets subject to the current subject if it's in the text
-        subject = None
+def findSub(ontology,text,level):
+    subjects = []
+    inText = re.findall(ontology.subject+"(?=[^A-z])",text,re.IGNORECASE)   #Only finds whole words
+    subject = ontology.subject
+    trueSubject = subject
+    hits = len(inText)
+    trueHits = hits
+    if ontology.devs == []:
+        if inText == []: #Return the subject if no derivatives exist
+            return None
+        else:
+            return [subject,hits,level]
     else:
-        subject = ontology.subject
-    if ontology.devs == None:  #Returns the subject if no derivatives exist
-        return subject
-    else:
-        for dev in ontology.devs:   #Recurrs if the derivative is in the text
-            if not findSub(dev,text) == None:
-                subject = ontology.subject+"/"+findSub(dev,text)
+        for dev in ontology.devs:
+            hits = trueHits
+            subject = trueSubject
+            if findSub(dev,text,level) != None:
+                subject = subject+"/"+str(findSub(dev,text,level)[0])
                 #Will always choose the subject farthest down the ontology
-    return subject'''
+                hits = hits + findSub(dev,text,level)[1]  #Hits are cummulative
+                subjects.append([subject,hits,level+1])
+        if subjects == []:#If no derivatives get hits, add the last hit to subjects
+            if inText != []:
+                subjects.append([subject,hits,level])
+            else:
+                return None
+        chosen = None
+        if len(subjects) == 1:
+            chosen = subjects[0]
+        #Decide on the best subject based on the hits each generated
+        elif len(subjects) > 1:
+            mostHits = 0
+            for sub in subjects:
+                if sub[1] > mostHits:
+                    chosen = sub
+                    mostHits = sub[1]
+        return chosen
 
 nameRecall = 0
 locRecall = 0
@@ -56,7 +79,7 @@ timeRecall = 0
 
 directory = os.getcwd()
 for file in os.listdir(directory + "/seminar_testdata/test_untagged"):
-    file = "301.txt"       #For selecting specific files
+    #file = "443.txt"       #For selecting specific files
     #Load the email
     data = open(directory+"/seminar_testdata/test_untagged/"+file, "r")
     email = data.read()
@@ -105,11 +128,8 @@ for file in os.listdir(directory + "/seminar_testdata/test_untagged"):
     foundTime = True
     eFoundTime = True
     tCheck = re.findall(timeRegs,lecTime.group(0),re.IGNORECASE)
-    print(tCheck)
     for item in tCheck:
-        times.append(item)
-
-    print(times)
+        times.append(item[0])
     if (times == []):
         foundTime = False
         eFoundTime = False
@@ -404,14 +424,24 @@ for file in os.listdir(directory + "/seminar_testdata/test_untagged"):
         locRecall += 1
 
     #Find the correct subject in the ontology
-    #subject = findSub(ontology,email)
+    subject = None
+    if lecType:
+        subject = findSub(ontology,lecType.group(0),0) #Check the header first, it's more likely to be there
+    if subject == None:
+        subject = findSub(ontology,email,0)   #Only check the full email if the header is not there
     #Adds the subject to the front of the email
-    email = "SUBJECT: "+str(subject)+"\n---------------------------------\n"+email
+    if subject == None:
+        email = "SUBJECT: "+str(subject)+"\n---------------------------------\n"+email
+    else:
+        email = "SUBJECT: "+str(subject[0])+"\n---------------------------------\n"+email
+
+    print(file)
+    print(subject)
     #Write the email to a new file
     output = open(directory+"/seminar_testdata/test_untagged_output/"+insertString(file,3,"out"),"w")
     output.write(email)
     output.close()
 
-    break                      #If only one file needs to be tested
+    #break                      #If only one file needs to be tested
 stats = [timeRecall,timeRecall/185,nameRecall,nameRecall/185,locRecall,locRecall/185]
 #print(stats)
